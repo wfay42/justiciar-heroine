@@ -8,19 +8,31 @@ Sumire gets entangled in new makeup, which is really Atsugessho
 define atsu = Character("Amane", who_color="#aaaaaa")
 
 label ch02_start:
+    scene bg hq
     "After a successful mission, the Justiciars are relaxing."
 
-    s "That last fight was bonkers! I'm off to do some retail therapy, see you all later!"
+    show s unsure
+    s "That last fight was bonkers!"
 
+    show s casual excited
+    s "I'm off to do some retail therapy, see you all later!"
+
+    scene bg street
+    show s atsu 01
     atsu "Hello young miss, would you be interested in a free sample?"
     s "Ooh, free sample of what?"
     atsu "Our latest perfume, Eau de Atsu."
+    show s atsu 02
     s "Sure thing!"
 
+    show s atsu 03
     "The clerk gives a heavy spritz of the perfume to Sumire. Sumire takes in a deep breath enjoying its flowery scent."
+
+    show s atsu 04
     atsu "How do you like it? Most patrons find it... enchanting. If you like that, please follow me into the salon for more samples."
     s "There's more free stuff! I mean, err, yes, I do like it. I'd love to see more."
 
+    scene bg salon
     "Sumire is escorted into the salon by the clerk. The smell of the perfume is found throughout the store, although a bit stronger."
     atsu "Please, have a seat in the chair."
 
