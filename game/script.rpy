@@ -40,4 +40,6 @@ label intro:
     "Sumire, the idol. Sumire is responsible for the public image of the Justiciars and acts as a moral compass for the group."
     "Maika, the leader. With a feeling of deep responsibility, Maika takes charge of any situation, leading her Justiciars into danger, but always back home again."
 
+    jump ch02_start
+
     return
