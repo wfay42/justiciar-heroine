@@ -11,7 +11,8 @@ define s = Character("Sumire", who_color="#0fb20f")
 define y = Character("Yukino", who_color="#eeee00")
 define z = Character("Zoe", who_color="#000000")
 
-
+# A smooth dissolve over 2 seconds
+define dissolve_2 = Dissolve(2)
 
 # The game starts here.
 
