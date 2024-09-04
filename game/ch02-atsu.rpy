@@ -8,6 +8,9 @@ Sumire gets entangled in new makeup, which is really Atsugessho
 define atsu = Character("Amane", who_color="#aaaaaa")
 
 label ch02_start:
+    jump ch02_at_salon
+
+label ch02_at_salon:
     scene bg hq
     "After a successful mission, the Justiciars are relaxing."
 
@@ -50,7 +53,7 @@ label ch02_start:
     show s atsu 07
     "The chair is extremely soft. Without much thought, Sumire begins to completely relax every muscle in her body. She barely notices the beautician begin working."
     show s atsu 08
-    atsu "What a beautiful speciment. But there is so much more we can do. We need to thin out those eyebrows, add a bold wingtip, some mascara will do."
+    atsu "What a beautiful specimen. But there is so much more we can do. We need to thin out those eyebrows, add a bold wingtip, some mascara will do."
     atsu "And of course a beautiful lipstick and some matching eye shadow. I can see you love green, so of course we'll have to match that."
 
     "Sumire barely acknowledges what is being said to her. The combination of the chair and the smell of the perfume within the salon have rendered her into a state of nirvana."
@@ -73,4 +76,42 @@ label ch02_start:
     s "It's beautiful! You've done such an amazing job? How can I thank you?"
     atsu "Please tell all of your friends about this place! And of course, come back any time!"
 
+    show s atsu 13
+    atsu "In fact, we're still hiring. Would a beautiful young lady like yourself be interested?"
+    s "Oh, I already have a full-time job."
+    "Sumire's heart begins to beat a little faster with the thought of getting to apply makeup on customers just as the beautician had done to her."
+    "Part of her tries to leave the salon without another word, but she just can't bring herself to do it."
+    s "But I do have time off on the weekends! I'll be here tomorrow, that's normally my day off."
 
+    show s atsu 14
+    atsu "I very much look forward to it."
+    "Sumire walks out of the store. She can't believe she said that, but she feels so excited to return the next day that she doesn't care."
+
+    show s atsu 15
+    atsu "A perfect specimen indeed. She will be a crucial component of the plan."
+
+    jump ch02_saturday_street
+
+label ch02_saturday_street:
+    scene bg street
+    "The next day, Sumire bubbles with excitement as she makes her way to the salon."
+    "On the way, she sees fellow Justiciar Hazel looking worried."
+
+    s "Oh hey Hazel! What's up?"
+    h "Hey Sumire... Whoa, what's with the makeup?"
+    s "I found this amazing salon yesterday! She gave me this whole makeover for free, and it even lasted all night long!"
+    h "Uhh, you're supposed to take makeup off before you go to bed or else your pillow looks like nightmare fuel. But... it did stay on really well."
+    s "You have to come with me! The lady who owns the place said they could even use some part-time help!"
+    h "Well... I guess I could. OK, can you keep a secret? I've got a date later tonight, and I'm super nervous."
+    s "Then you should *definitely* come with me Hazel. They'll help you feel confident and sexy in no time!"
+    h "S... sexy!? I'm not sure I need that much before I..."
+    "Without another word, Sumire grabs Hazel's hand and starts skipping down the road to the salon."
+
+    jump ch02_saturday_salon
+
+label ch02_saturday_salon:
+    scene bg salon
+    atsu "Welcome back young miss. And I see you've brought a friend!"
+    s "Hello again! This is Hazel, and she told me she has a hot date tonight and needs to look *sexy*! Can we help her!"
+    h "W... wait! I... I don't want to look too sexy!"
+    atsu "Not a problem, please have a seat right here!"
