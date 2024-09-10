@@ -197,4 +197,84 @@ label ch02_saturday_salon:
     jump ch02_saturday_hazel_date
 
 label ch02_saturday_hazel_date:
-    "Hazel's date"
+    scene bg street
+    show h atsu 15
+    "Hazel strolls, no, structs down the street with a newfound confidence. The nervous woman from the morning is gone, replaced by a stunning femme fatale."
+    "Hazel can feel the eyes of everyone walking by her, feeling their stunned silence at her beauty."
+    "Thinking about her date, she feels an urge deep within. She knows what she wants."
+
+    show h atsu 16
+    "Hazel picks up her phone, deciding to send a video message to her date. Before she hits record, the smallest piece of her hesitates. She's never done anything like this. Especially not for a blind date."
+    "But the feeling passes as she hits record."
+    h "Hey big boy. I've been thinking. How about we have dinner at my place? I'll shoot you my address. I'll give you dinner and a show. Get there fast for a reward."
+    "She immediately sends the message without a second thought."
+
+    show h atsu 17
+    h "I'd better get back. I need to pick out what to wear, and I know he's going to be rushing."
+
+    scene bg apartment
+    "There's a knock at Hazel's door. The knock sounds somewhat rushed, although the person knocking is trying to keep it cool."
+    h "It's unlocked. Come in. I'm in the bedroom."
+
+    "Hazel's blind date makes his way to the bedroom, his heart beating out of his chest with excitement. The apartment is small, so it's not hard to find his way to the bedroom."
+    "With only one thing on his mind, he is completely oblivious to the smell of perfume throughout Hazel's apartment. The scent only drives him more wild."
+    "Turning the corner, he sees exactly what he'd hoped to see."
+
+    show h atsu 18 with dissolve_2
+    h "I'm so glad you could make it. You really didn't keep me waiting. I'm afraid I didn't have time to make anything for dinner. But that's OK, I think you're actually going to be eating out anyway."
+
+    show h atsu 19
+    "Opening her legs, Hazel motions towards her pussy. Her date finally notices her lack of panties. Nothing is blocking his way, and the perfume has made him into a willing servant to her every command."
+
+    show h atsu 19a
+    h "Well, what are you waiting for?"
+    "The man wraps his lips around her pussy, enveloping her with his warm breath. His tongue leisurely extends out, and begins to play around."
+
+    show h atsu 20
+    "The first wave of pleasure courses through Hazel's body. This isn't Hazel's first time with a man by any means, but the makeover has heightened every part of the experience. She knows this will be the beginning of a long night."
+    "Her first orgasm sends a shiver down her spine as she fills her date's mouth with her juices."
+
+    show h atsu 21
+    h "Ohhh that was amazing. I think you deserve a reward for that."
+
+    show h atsu 22
+    "After stripping her date and slipping a condom on him, Hazel lays on her back."
+    h "Let's start out easy. Get on top of me. Now."
+    "Hazel's date makes no delay in following this command. He lowers his hips gently but firmly, easily entering Hazel's body."
+    h "Good boy. Now, make me cum."
+
+    show h atsu 23
+    "Without thinking, as if driven by animal instinct, the man ensures his member rubs past every square inch of Hazel's insides. He is driven not by his own need to orgasm, but by a desire to see hers."
+
+    show h atsu 24
+    "Pounding into her, he is able to excite her clit at the end of every deep thrust. Hazel's eyes roll back into her head."
+    h "Yes, oh god yes!"
+    "With one last convulsion, Hazel claims another orgasm, then relaxes her body with her date still deep within her."
+
+    show h atsu 25
+    h "That was exactly what I needed... And we're not done yet."
+
+    show h atsu 26a
+    "Without a word, Hazel moves herself out from under her partner. Giving him a coy look, she grabs one of the straps on her nighty."
+
+    show h atsu 26b
+    "With a small tug, she pulls the strap down, exposing her gorgeous breasts. Her smile widens as she sees the effect this has on her partner's member."
+
+    show h atsu 26c
+    "Without much more effort, Hazel removes the nighty entirely, leaving herself completely in the nude. Her body exudes confidence and sexuality in this pose."
+    h "Like what you see? Well, let's continue, shall we?"
+
+    show h atsu 27
+    "Hazel and her date continue on for the rest of the evening. Hazel giving instructions, and the man following every one of them."
+    "The man enjoys every second. So much so that he never notices that it's impossible for him to orgasm. Unknowingly, Hazel is doing the bidding of the Dark Sisterhood, draining the energy of this man."
+
+    show h atsu 28
+    "Of course, she ensures he has enough energy to fulfill her desires still, but she is draining him none the less."
+    "With the man all but completely drained, it seems Hazel's appetite has finally been sated."
+
+    show h atsu 29
+    h "What a good boy you are. We'll have to do this again. Is tomorrow too soon?"
+    "The man can barely muster a groan before falling unconcious."
+    h "Heh, fine, you can sleep here tonight. All the better to get to work tomorrow."
+
+
