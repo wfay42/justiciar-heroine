@@ -4,6 +4,7 @@
 # name of the character.
 
 # Main characters
+define c = Character("Chisato", who_color="#8D7077")
 define h = Character("Hazel", who_color="#0000ff")
 define k = Character("Kaede", who_color="#F187BA")
 define m = Character("Maika", who_color="#ee3333")
