@@ -279,44 +279,179 @@ label ch02_saturday_hazel_date:
 
 label ch02_sunday_hq:
     scene bg hq
-    "After a short weekend, the Justiciars returned to work. Although it ended up being a strange day."
+    "After a short weekend, the Justiciars returned to work, like any normal day. Although it would end up being anything but normal."
+
+    show z atsu 01
     z "Hey Kaede! How was your weekend?"
     k "Hey Zoe! It was great. I mostly just snuggled up with a good book and some hot tea. How about..."
     "But before she could finish, two familiar faces pass them by, exiting Director Chisato's office."
 
+    show z atsu 02
     s "Hey Kaede! Hey Zoe! You two should come down to the salon!"
     h "That's right! We're giving out free makeovers, so you should come before the line gets long!"
 
     k "Oh my! Sumire? Hazel? What's gotten into you two?"
     s "Not much. Oh, but we did just quit the Justiciar Force to be full-time makeup artists!"
     h "Yup, we just found our true calling. Anyway, see you two later!"
-    "Sumire and Hazel leave as quickly as they arrived. Zoe and Kaede stand in stunned silence for a few moments until the air is cleared by a voice from the next room."
 
+    show z atsu 03
+    "Sumire and Hazel leave as quickly as they arrived. Zoe and Kaede stand in stunned silence for a few moments until the air is cleared by a voice from the next room."
     c "Kaede, Zoe, get in here!"
     "Kaede and Zoe snap out of their stupor and rush into the director's office."
+
+    show z atsu 04
     c "Do either of you know what has gotten into those two? They waltzed in here early, said they both quit to follow their dreams of being makeup artists, then walked right out."
-    z "Sorry boss, this is weird. Think we should follow them?"
+    z "Sorry boss, we're as surprised as you. This is weird. Think we should follow them?"
     c "Yes. You two go first. I'll call Maika and Yukino. They were already in the middle of a call, so they'll meet you there when they wrap up."
     k "Aye aye, captain."
 
 label ch02_sunday_street:
     scene bg street
+    show z atsu 05
     m "Hey, Yukino, we've got a message from the director. Says we need to rendezvous with Kaede and Zoe at some salon downtime."
     k "Salon? Are they trying to find new ways to get out of paying us our annual bonus?"
     m "No, she said something about Sumire and Hazel acting weird and... resigning? She sent Kaede and Zoe after them and we're supposed to meet up there."
-    k "Alright, lead on."
+
+    show z atsu 06
+    k "What? Them? Resigning? That is weird. Alright, lead on."
 
 label ch02_sunday_salon:
     scene bg salon
     "By the time Maika and Yukino arrive, the main room of the salon is empty."
+    show z atsu 07
     m "I hear something in the back, let's go, but stay quiet."
 
+    show z atsu 08
     "Sneaking into the back, the two heroines peek around the corner and notice three figures standing, and two seating in chairs."
 
+    show z atsu 09a
     h "Another satisfied customer!"
     s "I'm so glad you two decided to come join us!"
-    "To Maika and Yukino's shock, they recognize Sumire and Hazel standing in beautician uniforms, and Kaede and Zoe sitting in the chairs."
+    show z atsu 09b with dissolve_2
+    "To Maika and Yukino's shock, they recognize Sumire and Hazel standing in beautician uniforms, and Kaede and Zoe sitting in the chairs wearing gaudy makeup."
+
+    show z atsu 10
+    y "What the hell? It's like that makeup is hypnotizing them. I'm guessing that woman we don't know is the culprit."
+    y "What's the play, cap?"
+    menu:
+        "Run straight for the beautician and try to defeat her":
+            jump ch02_sunday_salon_badend
+        "Find the source of the hypnosis":
+            jump ch02_sunday_salon_goodend
+
+label ch02_sunday_salon_badend:
+    show z atsu 11
+    m "We don't have much time. We have to rush in there and incapacitate their leader. It's the only way to save our friends."
+    show z atsu bad 01
+    "Maika and Yukino rush into the room, ready for a fight."
+    m "Stop it right there! You've done enough damage to our friends, now it's time to pay!"
+    atsu "Finally, the last two have arrived. As you can see you're too late. Wouldn't you prefer to join your friends instead?"
+    h "Yeah Maika! We're having so much fun!"
+    s "That's right! Mistress has taught us the joy of makeovers!"
+
+    y "I hate to say it, but I think we may have to fight past Sumire and Hazel."
+    m "I think you're right. Oh, I hope they can forgive us!"
+    atsu "Fine, if it's come to a fight..."
+    show z atsu bad 02 with dissolve_2
+    atsu "Then a fight you'll get. Right ladies?"
+    show z atsu bad 03 with dissolve_2
+    h "Yes mistress!"
+    y "Of course, a minion from the Dark Sisterhood. It all makes sense now. Sorry ladies, this is going to hurt you a lot more than it'll hurt me."
+
+    show z atsu bad 04
+    "Maika and Yukino are able to make quck work of their hypnotized friends, leaving the beautician vulnerable."
+
+    show z atsu bad 05
+    m "It's over. Free our friends and we might let you go."
+    atsu "I would, but it seems your friends can't seem to let *you* go."
+
+    show z atsu bad 06
+    "In a moment of complete surprise, Maika and Yukino feel themselves get grabbed by the shoulders and shoved down into one of the salon's couches."
+    "Speechless, they can't understand how they were bested."
+    show z atsu bad 07
+    "Looking up, they see Zoe and Kaede wearing the same outfit as the villain and her converted thralls."
+    atsu "I'm afraid you forgot about my most recent employees. I'm glad they finally came to just in time to protect me."
+
+    show z atsu bad 08
+    atsu "You two seem to have the strongest wills of any of your comrades. The scent in the salon and the comfort of the couch seem to barely affect you."
+    atsu "That's what's going to make this so much fun. I think I'll start with the yellow one. That way Little Miss Leader can watch the consequences of her failure."
+    y "Pff, I'd like to see you try."
+    atsu "Perfect, then it's time to begin!"
+
+    show z atsu bad 09
+    "The beautician jumps into action almost immediately. Yukino serving as another canvas for her to paint."
+    m "You get the hell off of her! Yukino!"
+    y "Don't worry chief, whatever she's doing here is pointless."
+    atsu "Now now, you mustn't talk or things will smudge and this will take twice as long."
+    "Maika struggles against her captor, but her energy is now drained by the perfume permeating the salon and the couch she has been firmly sat into."
+    "She knows at this point her struggles are pointless as she feels the energy continue to leave her body."
+
+    show z atsu bad 10a
+    atsu "All done. Another perfect piece of art, don't you think?"
+    show z atsu bad 10b with dissolve_2
+    "Maika's jaw drops seeing Yukino's transformation. The beautician was right about one thing. Her body washes over with guilt, knowing she made the wrong call and sealed Yukino to this fate."
+
+    show z atsu bad 11
+    atsu "Oh your face is priceless!"
+    m "What have you done to her? To all of them?"
+    atsu "It's simple really. I've filled them with an adoration of makeup, and the drive to give this gift to others."
+    atsu "Along the way, they'll help me drain energy from humans for my Dark Sisters, and we'll be able to take over this world!"
+
+    show z atsu bad 12
+    atsu "Now enough exposition, I'm glad I saved the best for last."
+    jump ch02_sunday_salon_badend_02
+
+label ch02_sunday_salon_badend_02:
+    scene bg hq
+    "Later, back at HQ."
+    show z atsu bad 13
+    "*Knock knock knock*"
+    c "Come in."
+    m "Reporting back, captain!"
+    show z atsu bad 14
+    c "Great, all good news, I hope?"
+    show z atsu bad 15
+    m "Yes, in fact, excellent news! We found Sumire and Hazel, and they gave us all makeovers!"
+    m "And we were able to convince them to come back to the Justiciars! We were thinking we can still give makeover here. In fact, with your blessing, we wanted to make that our primary business!"
+    c "Maika! What, what's gotten into you!"
+    show z atsu bad 16
+    m "Chill out, Chisato! Mistress said you'd be like this. Luckily everyone is here to help convince you!"
+    c "I can't believe what I'm hearing! We need to call for backup."
+    m "Good idea. Come on in, ladies!"
+
+    show z atsu bad 17a
+    h "Come on captain, please?"
+    s "We really want to turn Justiciar HQ into a salon!"
+    c "Now now, ladies. We mustn't get hasty."
+    m "Don't worry, we've thought this through. We even have new uniforms!"
+    show z atsu bad 17b with dissolve_2
+    m "Now it's time to get you into your uniform too!"
+    show z with dissolve
+
+    scene bg hq
+    "Later that day..."
+    show z atsu bad 18
+    c "And that is why the Justiciar Sentai are refocusing our efforts on bringing beauty to the world."
+    show z atsu bad 19
+    c "I'm sure you can already see how we've brought beauty to our own ranks. And now we want to share it."
+    show z atsu bad 20
+    c "But do not worry. We are here for you, our citizens. Each one of my Justiciars is ready to pamper you."
+    show z atsu bad 21
+    c "Their unique skills will bring you unparalleled joy."
+    show z atsu bad 22
+    c "Their deft hands will make you feel better than you've ever felt before."
+    show z atsu bad 23
+    c "And of course, all of this is provided to the public, free of charge."
+    show z atsu bad 24
+    c "And best of all, we're open right now!"
+    "The only thing louder than the applause was the thundering of feet as customers rapidly charged the new Justiciar salon."
+    "With the Justiciars out of the way, and in fact helping steal energy from the human, it was not long until the Dark Sisterhood took over the world."
+    "Chapter 02 Bad End"
+    return
 
 
+label ch02_sunday_salon_goodend:
+    show z atsu 11
+    m "There's five of them, they'll overpower us. We have to find the source of the hypnosis."
 
 
