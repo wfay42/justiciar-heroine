@@ -277,4 +277,46 @@ label ch02_saturday_hazel_date:
     "The man can barely muster a groan before falling unconcious."
     h "Heh, fine, you can sleep here tonight. All the better to get to work tomorrow."
 
+label ch02_sunday_hq:
+    scene bg hq
+    "After a short weekend, the Justiciars returned to work. Although it ended up being a strange day."
+    z "Hey Kaede! How was your weekend?"
+    k "Hey Zoe! It was great. I mostly just snuggled up with a good book and some hot tea. How about..."
+    "But before she could finish, two familiar faces pass them by, exiting Director Chisato's office."
+
+    s "Hey Kaede! Hey Zoe! You two should come down to the salon!"
+    h "That's right! We're giving out free makeovers, so you should come before the line gets long!"
+
+    k "Oh my! Sumire? Hazel? What's gotten into you two?"
+    s "Not much. Oh, but we did just quit the Justiciar Force to be full-time makeup artists!"
+    h "Yup, we just found our true calling. Anyway, see you two later!"
+    "Sumire and Hazel leave as quickly as they arrived. Zoe and Kaede stand in stunned silence for a few moments until the air is cleared by a voice from the next room."
+
+    c "Kaede, Zoe, get in here!"
+    "Kaede and Zoe snap out of their stupor and rush into the director's office."
+    c "Do either of you know what has gotten into those two? They waltzed in here early, said they both quit to follow their dreams of being makeup artists, then walked right out."
+    z "Sorry boss, this is weird. Think we should follow them?"
+    c "Yes. You two go first. I'll call Maika and Yukino. They were already in the middle of a call, so they'll meet you there when they wrap up."
+    k "Aye aye, captain."
+
+label ch02_sunday_street:
+    scene bg street
+    m "Hey, Yukino, we've got a message from the director. Says we need to rendezvous with Kaede and Zoe at some salon downtime."
+    k "Salon? Are they trying to find new ways to get out of paying us our annual bonus?"
+    m "No, she said something about Sumire and Hazel acting weird and... resigning? She sent Kaede and Zoe after them and we're supposed to meet up there."
+    k "Alright, lead on."
+
+label ch02_sunday_salon:
+    scene bg salon
+    "By the time Maika and Yukino arrive, the main room of the salon is empty."
+    m "I hear something in the back, let's go, but stay quiet."
+
+    "Sneaking into the back, the two heroines peek around the corner and notice three figures standing, and two seating in chairs."
+
+    h "Another satisfied customer!"
+    s "I'm so glad you two decided to come join us!"
+    "To Maika and Yukino's shock, they recognize Sumire and Hazel standing in beautician uniforms, and Kaede and Zoe sitting in the chairs."
+
+
+
 
