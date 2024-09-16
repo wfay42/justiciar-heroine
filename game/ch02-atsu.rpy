@@ -29,8 +29,10 @@ label ch02_at_salon:
     s "Sure thing!"
 
     show s atsu 03
+    show smoke atsu light
     "The clerk gives a heavy spritz of the perfume to Sumire. Sumire takes in a deep breath enjoying its flowery scent."
 
+    hide smoke
     show s atsu 04
     atsu "How do you like it? Most patrons find it... enchanting. If you like that, please follow me into the salon for more samples."
     s "There's more free stuff! I mean, err, yes, I do like it. I'd love to see more."
@@ -50,13 +52,15 @@ label ch02_at_salon:
             atsu "Please, I insist."
             show s atsu 06 no
             "Before she knows it, the beautician puts her hands on Sumire's shoulders, forcing Sumire down into the chair."
-    show s atsu 07
+    show smoke atsu light zorder 0
+    show s atsu 07 zorder 1
     "The chair is extremely soft. Without much thought, Sumire begins to completely relax every muscle in her body. She barely notices the beautician begin working."
     show s atsu 08
     atsu "What a beautiful specimen. But there is so much more we can do. We need to thin out those eyebrows, add a bold wingtip, some mascara will do."
     atsu "And of course a beautiful lipstick and some matching eye shadow. I can see you love green, so of course we'll have to match that."
-
     "Sumire barely acknowledges what is being said to her. The combination of the chair and the smell of the perfume within the salon have rendered her into a state of nirvana."
+
+    hide smoke
     show s atsu 09
     "The beautician begins work immediately. Sumire sees every step of the process. She remains completely still. An ideal customer."
     atsu "(Thinking) Ha, this was too easy! This young woman will provide our kingdom with so much life energy!"
@@ -143,17 +147,20 @@ label ch02_saturday_salon:
     menu:
         "Grab Sumire and get out of here":
             h "Something's wrong about this salon Sumire. I'm taking you out of here!"
-            show h atsu 08
+            show smoke atsu light zorder 0
+            show h atsu 08 zorder 1
             "Before Hazel can even get out of the chair, the beautician sprays a hefty amount of perfume into her face."
             atsu "Now now. This is a place of relaxation! Come Miss Hazel, have a sit and let us do all the work."
         "Wait for now, knowing you'll talk about it later":
             h "I think I'll keep my job, and you should too! We'll talk about this later."
             atsu "A grand choice. Now please, sit back and relax."
-            show h atsu 08
+            show smoke atsu light zorder 0
+            show h atsu 08 zorder 1
             "With that, the beautician gives a ginger spray of the perfume onto Hazel's face"
     show h atsu 09
     "Sitting back in the chair, Hazel has fallen victim to aroma of the perfume. All she can do now is sit back and enjoy the ride."
 
+    hide smoke
     show h atsu 10a
     atsu "Would you like to start with the lipstick?"
     s "*Gasp*! But I thought I was only going to watch?"
@@ -316,11 +323,12 @@ label ch02_sunday_street:
     k "What? Them? Resigning? That is weird. Alright, lead on."
 
 label ch02_sunday_salon:
-    scene bg salon
+    scene bg salon entrance
     "By the time Maika and Yukino arrive, the main room of the salon is empty."
     show z atsu 07
     m "I hear something in the back, let's go, but stay quiet."
 
+    scene bg salon back
     show z atsu 08
     "Sneaking into the back, the two heroines peek around the corner and notice three figures standing, and two seating in chairs."
 
@@ -330,6 +338,7 @@ label ch02_sunday_salon:
     show z atsu 09b with dissolve_2
     "To Maika and Yukino's shock, they recognize Sumire and Hazel standing in beautician uniforms, and Kaede and Zoe sitting in the chairs wearing gaudy makeup."
 
+    scene bg salon entrance
     show z atsu 10
     y "What the hell? It's like that makeup is hypnotizing them. I'm guessing that woman we don't know is the culprit."
     y "What's the play, cap?"
@@ -342,6 +351,8 @@ label ch02_sunday_salon:
 label ch02_sunday_salon_badend:
     show z atsu 11
     m "We don't have much time. We have to rush in there and incapacitate their leader. It's the only way to save our friends."
+
+    scene bg salon back
     show z atsu bad 01
     "Maika and Yukino rush into the room, ready for a fight."
     m "Stop it right there! You've done enough damage to our friends, now it's time to pay!"
@@ -428,7 +439,7 @@ label ch02_sunday_salon_badend_02:
     m "Now it's time to get you into your uniform too!"
     show z with dissolve
 
-    scene bg hq
+    scene bg hq outside
     "Later that day..."
     show z atsu bad 18
     c "And that is why the Justiciar Sentai are refocusing our efforts on bringing beauty to the world."
