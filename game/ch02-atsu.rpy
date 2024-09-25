@@ -20,7 +20,9 @@ label ch02_at_salon:
     show s casual excited
     s "I'm off to do some retail therapy, see you all later!"
 
-    scene bg street
+    scene bg shopping
+    "Sumire strolls down the street to the local shopping district. She notices a new shop has opened up, and decides to take a look."
+
     show s atsu 01
     atsu "Hello young miss, would you be interested in a free sample?"
     s "Ooh, free sample of what?"
@@ -204,9 +206,9 @@ label ch02_saturday_salon:
     jump ch02_saturday_hazel_date
 
 label ch02_saturday_hazel_date:
-    scene bg street
+    scene bg shopping
     show h atsu 15
-    "Hazel strolls, no, structs down the street with a newfound confidence. The nervous woman from the morning is gone, replaced by a stunning femme fatale."
+    "Hazel strolls, no, struts down the street with a newfound confidence. The nervous woman from the morning is gone, replaced by a stunning femme fatale."
     "Hazel can feel the eyes of everyone walking by her, feeling their stunned silence at her beauty."
     "Thinking about her date, she feels an urge deep within. She knows what she wants."
 
@@ -376,6 +378,9 @@ label ch02_sunday_salon_badend:
     m "It's over. Free our friends and we might let you go."
     atsu "I would, but it seems your friends can't seem to let *you* go."
 
+    jump ch02_sunday_salon_badend_sitdown
+
+label ch02_sunday_salon_badend_sitdown:
     show z atsu bad 06
     "In a moment of complete surprise, Maika and Yukino feel themselves get grabbed by the shoulders and shoved down into one of the salon's couches."
     "Speechless, they can't understand how they were bested."
@@ -410,9 +415,9 @@ label ch02_sunday_salon_badend:
 
     show z atsu bad 12
     atsu "Now enough exposition, I'm glad I saved the best for last."
-    jump ch02_sunday_salon_badend_02
+    jump ch02_sunday_salon_badend_hq
 
-label ch02_sunday_salon_badend_02:
+label ch02_sunday_salon_badend_hq:
     scene bg hq
     "Later, back at HQ."
     show z atsu bad 13
@@ -464,5 +469,35 @@ label ch02_sunday_salon_badend_02:
 label ch02_sunday_salon_goodend:
     show z atsu 11
     m "There's five of them, they'll overpower us. We have to find the source of the hypnosis."
+    y "I'm guessing it's whatever is making this smell. Let's track it through the vents."
 
+    show z atsu g 01
+    "Yukino and Maika climb up into the spacious vents, following the flow of air further into the building."
+    y "The fan is getting pretty loud. We have to be getting close."
 
+    show z atsu g 02
+    "Turning one last corner, Yukino spots a glowing pink device."
+    y "Eureka, that's it!"
+
+    show z atsu g 03
+    m "Great, we found it. But now what?"
+
+    menu:
+        "Break it":
+            jump ch02_sunday_salon_goodend_break
+        "Study it":
+            pass
+
+label ch02_sunday_salon_goodend_break:
+    y "We have to break it! With it gone, we'll surely get our friends back."
+    show z atsu g 04
+    "Grasping the object, Yukino pulls and pushes at every angle, trying to destroy the object in their confined space."
+    "Despite her might, Yukino only manages to rattle the ventilation around her."
+
+    show z atsu g 05
+    m "Yukino, stop... Do you hear something?"
+    y "Yeah, something squeaking?"
+
+    show z atsu g 06
+    "With a crash, the vent separates from the section in front of it. Yukino's banging finally did something, albeit not what she expected."
+    jump ch02_sunday_salon_badend_sitdown

@@ -33,13 +33,20 @@ label intro:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
+    show intro all bg
     "This is the story of the Justiciar Sentai. An international group of women devoted to maintaining peace and justice."
 
+    show h intro
     "Hazel, the scientist. Eldest of the Justiciars, she is in charge of the technology used by the team."
+    show z intro
     "Zoe, the tactician. Zoe comes from a prestigious military family, and applies that knowledge to keep missions running smoothly."
+    show y intro
     "Yukino, the fighter. Powerful, energetic, and a mite brash. Yukino knows how to get a mission done, no matter what."
+    show k intro
     "Kaede, the caretaker. The medic of the group, Kaede keeps the group's morale high no matter the situation."
+    show s intro
     "Sumire, the idol. Sumire is responsible for the public image of the Justiciars and acts as a moral compass for the group."
+    show m intro
     "Maika, the leader. With a feeling of deep responsibility, Maika takes charge of any situation, leading her Justiciars into danger, but always back home again."
 
     jump ch02_start
