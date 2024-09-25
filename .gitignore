@@ -2,6 +2,7 @@
 *.rpyb
 *.rpyc
 *.rpymc
+*.xcf
 /errors.txt
 /log.txt
 /traceback.txt
