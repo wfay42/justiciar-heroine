@@ -486,7 +486,7 @@ label ch02_sunday_salon_goodend:
         "Break it":
             jump ch02_sunday_salon_goodend_break
         "Study it":
-            pass
+            jump ch02_sunday_salon_goodend_study
 
 label ch02_sunday_salon_goodend_break:
     y "We have to break it! With it gone, we'll surely get our friends back."
@@ -500,4 +500,78 @@ label ch02_sunday_salon_goodend_break:
 
     show z atsu g 06
     "With a crash, the vent separates from the section in front of it. Yukino's banging finally did something, albeit not what she expected."
-    jump ch02_sunday_salon_badend_sitdown
+    jump ch02_sunday_salon_goodend_break2
+
+label ch02_sunday_salon_goodend_study:
+    y "Let's take a look at it. Everything has a weak spot."
+    "Inspecting the object, it seems as tough as steel.  But the heart design does draw some attention."
+    m "I'm wondering if that little heart is the key."
+    "Suddenly, the two women notice the sound of metal straining beneath them. It was only a matter of time until the vents gave way under their weight."
+
+    show z atsu g 06
+    "With a crash, the vent separates from the section in front of it."
+    jump ch02_sunday_salon_goodend_break2
+
+label ch02_sunday_salon_goodend_break2:
+    y "The device!"
+    m "Grab it!"
+
+    show z atsu g 07
+    "Yukino reaches out, grabbing the device midair.  Within a split second, she has another idea of what to do."
+
+    scene black
+    show z atsu g 08
+    "Conveniently, the villainous beautician stood directly below, carousing with Yukino's converted comrades."
+    "The villain was the only one with enough mental clarity to notice the ventilation system collapsing, but ultimately she noticed too late."
+
+    scene bg salon
+    show z atsu g 09
+    y "Boom, bitch!"
+    "Not having enough time to think of a better line, Yukino slams the device into the villain's cranium."
+    show sparkle z atsu
+    "The device and villain both begin glowing, sparking out, then disappear."
+
+    hide sparkle
+    show z atsu g 10
+    "With the villain defeated, the only thing left to do was fall face-first onto the ground."
+
+label ch02_goodend:
+    scene bg hq
+    "An hour later, back at HQ."
+    show z atsu g 11
+    c "Great job you two. That was almost a complete defeat. What was the trick?"
+    y "Smashing her in the head."
+    m "And I couldn't think of anyone better to do it than Yukino."
+    c "Simple. I like it."
+
+    show z atsu g 12
+    c "Now, for the rest of you. What did we learn?"
+
+    scene bg hq
+    show s shame 01
+    s "A cosmetics deal that seems too good to be true probably is."
+    show h shame 01
+    h "When a teammate looks and acts strange, report it immediately and bring them to HQ."
+    show k shame 01
+    k "Always wait for backup when entering enemy territory."
+    show z shame 01
+    z "Don't sit on the comfy couch when inside enemy territory."
+
+    scene bg hq
+    show z atsu g 12
+    c "Perfect. You all are dismissed."
+
+    show z atsu g 13
+    s "Wait, Hazel, what happened on that blind date?"
+    h "Oh uh, err, we, uhh. It went well."
+    s "Are you going to call him?"
+    h "Uhh, yeah, probably."
+    show z atsu g 14
+    h "Well, I guess he's probably still at my apartment, since he said he couldn't walk after, you know."
+    show z atsu g 15
+    pause
+    show z atsu g 15b
+    pause
+    show z atsu g 16
+    s "Hell yeah."
+    "End of Chapter 2."
