@@ -569,6 +569,7 @@ label ch02_goodend:
     show z atsu g 14
     h "Well, I guess he's probably still at my apartment, since he said he couldn't walk after, you know."
     show z atsu g 15
+    window hide
     pause
     show z atsu g 15b
     pause
