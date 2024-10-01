@@ -8,7 +8,29 @@ Sumire gets entangled in new makeup, which is really Atsugessho
 define atsu = Character("Amane", who_color="#aaaaaa")
 
 label ch02_start:
+    jump ch02_villain_intro
+
+label ch02_villain_intro:
+    scene black
+    show v atsu 01
+    v "Those damn Justiciars continue to foil our plans. I hope you have a plan, Amane."
+
+    show v atsu 02
+    atsu "Of course mistress. I have already succeeded in creating a cosmetics shop in a popular shopping district. This will act as a front for our plans."
+    atsu "My makeup will drain the energy from those who use it, converting them to our cause."
+    v "Very well. Begin your plan. And do not disappoint me. Don your disguise and begin your mission."
+
+    show v atsu 03 with dissolve_2
+    atsu "Yes, mistress. Anything for the Dark Sisterhood."
+
+    show v atsu 04
+    v "Yes, blessed are we dark sisters. And remember, failure is not an option. Is that understood?"
+
+    show v atsu 05
+    atsu "Of course, mistress."
+
     jump ch02_at_salon
+
 
 label ch02_at_salon:
     scene bg hq
@@ -575,4 +597,6 @@ label ch02_goodend:
     pause
     show z atsu g 16
     s "Hell yeah."
+    show z atsu g 16 with dissolve:
+        matrixcolor SaturationMatrix(0)
     "End of Chapter 2."

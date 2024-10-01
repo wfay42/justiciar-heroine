@@ -9,6 +9,7 @@ define h = Character("Hazel", who_color="#0000ff")
 define k = Character("Kaede", who_color="#F187BA")
 define m = Character("Maika", who_color="#ee3333")
 define s = Character("Sumire", who_color="#0fb20f")
+define v = Character("Vivienne", who_color="#880088")
 define y = Character("Yukino", who_color="#eeee00")
 define z = Character("Zoe", who_color="#000000")
 
