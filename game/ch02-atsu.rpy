@@ -600,3 +600,4 @@ label ch02_goodend:
     show z atsu g 16 with dissolve:
         matrixcolor SaturationMatrix(0)
     "End of Chapter 2."
+    jump ch03_start
