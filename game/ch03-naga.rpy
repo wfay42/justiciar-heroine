@@ -63,8 +63,19 @@ label ch03_hospital_01:
     show hospital 08
     "Kaede heads for the door; her other duties calling."
     "Zoe lays down, having trouble finding a comfortable spot. She didn't want to worry her friend, but she does think she may have some kind of reaction to the injection."
-    "If things get worse, she'll call Kaede back."
+    "Zoe calms herself down a bit. She knows that if things get worse, she'll call Kaede back."
 
 label ch03_hospital_02:
     show hospital 09
-    "Zoe lay on her back with growing discomfort. Her body burning"
+    "After half an hour, Zoe begins sweating as she lays on her back."
+    "The dull pain has been slowly creeping up her arm. Zoe decides to undress again, to see if she sees any sign of brusing."
+    "Taking off her sentai top, Zoe is shocked by what she sees: scales creep across most of her arm and onto her chest."
+    "Worry turns into panic as her heart races at the sight of this. Her beating heart pumps the toxin inside of her ever faster to the different parts of her body."
+    "The scales spread more quickly, covering the entirety of her upper body."
+    "Her face follows soon after, along with changes to her eyes..."
+    "Followed by her hair."
+    "If that all wasn't bad enough, something even worse begins happening to her legs. Her muscles jerk as her legs are drawn closer together."
+    "When she thought they could get no closer, they begin to merge together."
+    "Within a few moments, her legs have become an snake tail."
+    "Zoe rolls over, hoping to get the attention of Yukino, sleeping next to her."
+    "But at the sight of Yukino, something changes in Zoe's mind. She becomes... hungry."
