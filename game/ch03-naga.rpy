@@ -15,9 +15,10 @@ Kaede bad end, she has antivenom, making her immune to bites, but gets incubated
 
 label ch03_start:
     scene black
-    jump ch03_villain_intro:
+    jump ch03_villain_intro
 
 label ch03_villain_intro:
+    ""
     jump ch03_hospital_01
 
 label ch03_hospital_01:
@@ -28,7 +29,7 @@ label ch03_hospital_01:
     z "Heh. Just fine Kaede, thanks."
     y "If she's your favorite patient, what am I? Chopped liver?"
 
-    show hopsital 02
+    show hospital 02
     k "Oh, don't worry Yukino. You're also my favorite patient!"
     y "How does that even make sense? Whatever. My stomach is starting to act up again, can you give me something?"
     k "The antacids are next to your bed. Take 2 tablets, get some rest, and you should be right as rain soon enough!"
@@ -51,7 +52,7 @@ label ch03_hospital_01:
 
     show hospital 05
     "Zoe always puts on a brave face, but she is still a little nervous around needles."
-    show hopsital 06
+    show hospital 06
     "Zoe winces a little bit this time. She feels a hot burn in her arm after the shot, but it quickly fades."
 
     show hospital 07
@@ -81,18 +82,18 @@ label ch03_hospital_z_nagatf:
 
     show hospital 12
     "The scales spread more quickly, covering the entirety of her upper body."
-    show hospital 13
+    show hospital 13 with dissolve_2
     "Her face follows soon after, along with changes to her eyes..."
-    show hospital 14
+    show hospital 14 with dissolve_2
     "Followed by her hair."
 
     show hospital 15
     "If all of that wasn't bad enough, something even worse begins happening to her legs."
-    show hospital 16
+    show hospital 16 with dissolve_2
     "Her muscles jerk as her legs are drawn closer together."
-    show hospital 17
+    show hospital 17 with dissolve_2
     "Her boots melt off of her feet. With her legs unable to squeeze together any tighter, they begin to merge together."
-    show hospital 18
+    show hospital 18 with dissolve_2
     "Within a few moments, her legs have merged, covering themselves in scales like the rest of her body."
     jump ch03_hospital_y_nagatf
 
@@ -121,7 +122,14 @@ label ch03_hospital_y_nagatf:
     "Immediately, Zoe's fangs begin to inject her venom into Yukino. The sensation is fast and intense. Zoe feels this must be what ejaculation must feel like."
     "After only a moment, Zoe's venom is spent, and the toxin now courses through Yukino's body. The process has begun, and now it cannot be stopped."
     show hospital 28a
-    "Zoe's experiences an ecstasy she has never felt before. An orgasmic release as she has done what her body craved so badly."
+    "Zoe experiences an ecstasy she has never felt before. An orgasmic release as she has done what her body craved so badly."
     show hospital 29
     "Zoe is momentarily scared and frightened by what she has done, but this washes away almost instantly with the excitement of welcoming her friend into her sisterhood."
+    show hospital 30
+    window hide
+    pause
+    show hospital 31 with dissolve_2
+    pause
+    window show
+    ""
 
