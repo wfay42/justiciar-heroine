@@ -33,9 +33,7 @@ label ch03_hospital_01:
     k "Oh, don't worry Yukino. You're also my favorite patient!"
     y "How does that even make sense? Whatever. My stomach is starting to act up again, can you give me something?"
     k "The antacids are next to your bed. Take 2 tablets, get some rest, and you should be right as rain soon enough!"
-    k "Now if you'll excuse me, I need to get Zoe her shot."
-
-    k "Of course! We just got a new shipment of medicine, just for you."
+    k "Now if you'll excuse me, I need to get Zoe her shot. We just got a new shipment I need to inspect."
 
     show hospital 03b
     "Kaede looks at the new medicine. She knew her supplier had recently changed, but the pharmacy assured her that the dosages and everything else were equivalent."
@@ -99,7 +97,7 @@ label ch03_hospital_z_nagatf:
 
 label ch03_hospital_y_nagatf:
     show hospital 19
-    "Ill accustomed to a tail where her legs used to be, Zoe clumsily rolls over, hoping to get the attention of Yukino, sleeping in the bed next to her."
+    "Unaccustomed to a tail where her legs used to be, Zoe clumsily rolls over, hoping to get the attention of Yukino, sleeping in the bed next to her."
     show hospital 20
     "Zoe sees Yukino, fast asleep on the hospital bed. Before she can call out, Zoe feels something... strange."
     show hospital 21
@@ -125,11 +123,122 @@ label ch03_hospital_y_nagatf:
     "Zoe experiences an ecstasy she has never felt before. An orgasmic release as she has done what her body craved so badly."
     show hospital 29
     "Zoe is momentarily scared and frightened by what she has done, but this washes away almost instantly with the excitement of welcoming her friend into her sisterhood."
-    show hospital 30
+
+    show hospital 32
+    "Zoe sits up, watching the change take hold of Yukino. The injection of Zoe's venom works much faster than the chilled venom from the syringe. Yukino begins changing quickly."
     window hide
     pause
-    show hospital 31 with dissolve_2
+    show hospital 32a with dissolve_2
+    pause
+    show hospital 33 with dissolve_2
     pause
     window show
-    ""
+    "Zoe's excitement increases as she knows that under her uniform, the rest of Yukino's skin is transforming into scales."
+    window hide
+    show hospital 33a with dissolve_2
+    pause
+    window show
+    "As if Zoe's will to see Yukino's body had caused it, Yukino's uniform tears apart as her breasts transform larger than her skin-tight uniform can handle."
+    window hide
+    show hospital 34 with dissolve_2
+    pause
+    window show
+    "Yukino's strong fortitude allows her to sleep through the transformation, completely undisturbed."
+
+label ch03_hospital_maika_inspection:
+    show hospital 35
+    "A few minutes later, Kaede returns with Maika."
+    k "I'm sure you visiting Zoe and Yukino will make them both feel better."
+    m "Of course! I'm just glad the two of them are OK. We all need some R&R every now and then. Hey Zoe, Yukino, how are you two..."
+    show hospital 36
+    m "Oh my god!"
+    show hospital 37
+    z "Oh, hey Maika. Hey Kaede. Yukino and I are feeling great, thanks for asking."
+    y "Yeah, we were just playing around a bit, you know, sexually. Do you see my beautiful body? It was a gift from Zoe!"
+    z "I'm glad I could share it with you. And it's all thanks to Kaede. That new batch of injections sure packs a punch."
+
+    show hospital 37a
+    "Fighting through the shock of what she's seeing and hearing, Kaede is able to piece together what happened."
+    k "Oh no, the new batch of injections was tainted! It's transformed them into those... monsters!"
+    m "It must be a plot from the Dark Sisterhood. Zoe, Yukino, you two stay here. We'll help find a cure for this, I promise!"
+
+    show hospital 37
+    z "Cure? For what? True beauty? And power?"
+    show hospital 38
+    z "I think not. We were planning to share this gift with everyone we can. I think we'll start with you two."
+
+    show hospital 39
+    m "I was afraid of that. Kaede, you think you can incapacitate them?"
+    k "I think so. I'm a doctor, not a veterinarian, but I'm guessing the venom is in their fangs in their mouths. Avoid that at all costs."
+    m "Alright. Sorry about this in advance!"
+
+    show hospital 40
+    window hide
+    pause
+    window show
+    "Kaede is able to make a swift kick to Zoe's face, knocking her out in one hit."
+    "Maika, however, doesn't fare as well. Knowing Maika's attack patterns, Yukino easily slips past the red sentai, darting into the hallway."
+
+    show hospital 41
+    m "Damnit, she slipped right past me."
+    k "You stay here, Maika, and watch Zoe. I'll go after Yukino. I have some suppressants in my toolbelt I may be able to use."
+    m "On it. Stay safe, Kaede!"
+
+    show hospital 42
+    k "Hey, Hazel, we've got a situation. Start analyzing those new syringes I got. I need you to make an anti-venom from that."
+    h "Oh, sure thing. Were they tainted and now they're turning people into monsters?"
+    k "Yes, exactly. Snake monsters. Wait, how the hell did you guess that?"
+    h "You work in this lab long enough, you see a lot. I'm on it. Give me five minutes. Ten, tops."
+    jump ch03_hospital_c_nagatf
+
+label ch03_hospital_c_nagatf:
+    show hospital 43
+    "Elsewhere, Director Chisato is hard at work in her office."
+    "Little does she know, she has an uninvited guest."
+    show hospital 44 with dissolve_2
+    "Yukino dangles upside-down behind Chisato. Yukino managed to evade Kaede by entering the air ducts. Something she learned from her last mission."
+    show hospital 45
+    "Yukino lowers herself down slowly, curling her upper body right-side up without touching the ground, her heart racing."
+    show hospital 46
+    "Her heart beats faster with every inch she gets closer. Her mind swarms with thoughts of how beautiful Chisato will be once she becomes a naga like Yukino. She can almost feel the warmth from Chisato's skin."
+    show hospital 47
+    "It's now or never. If she moves any closer, Chisato will feel Yukino's breath, or a glancing disturbance of her hair. With animal precision, Yukino launches to bite Chisato."
+    show hospital 48
+    window hide
+    pause
+    c "AHH! G... get off me!"
+    show hospital 49
+    "Chisato grabs Yukino's head, attempting to dislodge the monster attached to her neck. But Yukino is undeterred. Waves of pleasure course through Yukino's body as she feels the venom rush into her victim."
+    show hospital 50a
+    "Yukino, having finished filling her victim with venom, drops her tail from the ceiling, and relaxes backwards as if she had just engaged in coitus."
+    "Chisato sits in her chair, shocked, and unable to move. Yukino's venom has had a mutation, adding a paralytic effect."
+    "Chisato sits in terror as she cannot speak, cannot move, barely able to breathe, as the venom runs through her."
+    "Chisato is unsure what is happening, but she knows that she is changing."
+
+    window hide
+    show hospital 50c with dissolve_2
+    window show
+    "Chisato feel her skin change, starting at the injection site. It crawls up to her mouth, and she feels her own incisors grow into pointed fangs."
+
+    window hide
+    show hospital 50d with dissolve_2
+    window show
+    "Next, she feels the change creep up her face. Her ears begin to point into tips; knocking her glasses off of her face. Her nose shrinks to be replaced by two slits."
+
+    window hide
+    show hospital 50e with dissolve_2
+    window show
+    "Chisato's vision changes as her face completes it's trasformation. She looks out of new, reptilian eyes. Colors look different than they ever had before."
+    "At first she experiences shock, followed by wonder at how the world now looks. But it is cut short, as she feels her chest throbbing as it pushes against her tight suit."
+
+    window hide
+    show hospital 50f with dissolve_2
+    window show
+    "Chisato's expanding breasts tear through her suit like tissue paper. This is the first Chisato can see of her changing skin. Her full chest jiggles as she notices the same scales crwaling up her arms."
+
+    window hide
+    show hospital 50b with dissolve_2
+    window show
+    "Chisato watches as the inevitable happens. Her tattered suit falls from her body as her hands cover in scales, and her fingernails turn to sharp claws. \"What kind of monster have I become?\" she thinks to herself."
+
 
