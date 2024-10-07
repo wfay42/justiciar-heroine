@@ -252,10 +252,10 @@ label ch03_hospital_c_nagatf:
     show hospital 52
     "Yukino's words begin to have an effect on Chisato. The overwhelming power of the venom combined with Yukino's fondling, capped off of by this dirty talk is almost too much to bear."
     y "Besides, I need your help. Zoe was the first to transform, but now Maika is guarding her. How about you come with me."
-    "Yukino leans in close to Chisato. Maneuvering right next to Chisato's ear. Chisato trembles with excitement, trying to fight it. Yukino breathes onces into Chisato's ear, then begins to whisper."
+    "Yukino leans in close to Chisato. Maneuvering right next to Chisato's ear. Chisato trembles with excitement, trying to fight it. Yukino breathes once into Chisato's ear, then begins to whisper."
 
     show hospital 52a
-    "I'll even let you be the one to bite Maika."
+    y "I'll even let you be the one to bite Maika."
 
     show hospital 53
     "That was it. Something snapped inside Chisato's mind at the thought of envenoming Maika. The taboo thoughts of biting down on her most trusted comrade, converting her into a monster."
