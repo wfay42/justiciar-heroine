@@ -240,5 +240,27 @@ label ch03_hospital_c_nagatf:
     show hospital 50b with dissolve_2
     window show
     "Chisato watches as the inevitable happens. Her tattered suit falls from her body as her hands cover in scales, and her fingernails turn to sharp claws. \"What kind of monster have I become?\" she thinks to herself."
+    "Chisato's near-infinite willpower keeps the venom's psychoactive effects at bay. She knows if she can outlast the paralysis, she can find a way out of this."
+    "That's when Yukino leans over to fondle her supervisor's new assets."
 
+    show hospital 51
+    y "Wow, Chisato. I didn't know you were hiding these gorgeous knockers all this time."
+    "Chisato struggles against the venom, reclaiming her ability to speak."
+    c "Y... Yukino. Stop this. Have to... reverse this."
+    y "Oh come on, don't be like that, captain. You have no idea how great it felt to bite into you like that. The rush of venom shooting out of my glands into your warm blood."
 
+    show hospital 52
+    "Yukino's words begin to have an effect on Chisato. The overwhelming power of the venom combined with Yukino's fondling, capped off of by this dirty talk is almost too much to bear."
+    y "Besides, I need your help. Zoe was the first to transform, but now Maika is guarding her. How about you come with me."
+    "Yukino leans in close to Chisato. Maneuvering right next to Chisato's ear. Chisato trembles with excitement, trying to fight it. Yukino breathes onces into Chisato's ear, then begins to whisper."
+
+    show hospital 52a
+    "I'll even let you be the one to bite Maika."
+
+    show hospital 53
+    "That was it. Something snapped inside Chisato's mind at the thought of envenoming Maika. The taboo thoughts of biting down on her most trusted comrade, converting her into a monster."
+    "Chisato can't stop thinking about her body entwined with Maika's as Maika transforms. Feeling Maika struggle. Knowing that the venom will win. Knowing they can be together in bliss as nagas."
+
+    show hospital 54
+    c "OK, my sister. We have work to do."
+    y "Yes! That's what I'm talking about!"
