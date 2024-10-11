@@ -9,7 +9,10 @@ Kaede and Maika restrain Zoe, but realize Yukino escaped.
 Maika stays to guard Zoe, Yukino goes to Hazel for help.
 Yukino sneaks into Chisato's office, TF Chisato.
 Yukino and Chisato go back to free Zoe. Yukino distracts Maika while Chisato frees Zoe. All 3 overpower Maika and TF her.
-Kaede and Hazel find antivenom and inject themselves.
+Kaede and Hazel make antivenom
+    Decision: inject self, or inject converted.
+    Inject self leads to capture in eggs and conversion.
+    Inject others leads to Hazel TF'ing, but Zoe reverts, then Kaede helps her revert others.
 Kaede bad end, she has antivenom, making her immune to bites, but gets incubated in an egg for multiple days until TF'd.
 """
 
@@ -264,3 +267,47 @@ label ch03_hospital_c_nagatf:
     show hospital 54
     c "OK, my sister. We have work to do."
     y "Yes! That's what I'm talking about!"
+    jump ch03_hospital_m_nagatf
+
+label ch03_hospital_m_nagatf:
+    show hospital 55
+    "Maika stands diligently, watching the captive Zoe."
+    z "Maika, can you let me out of this already? My venom's refractory period is over, and I feel like I need a bite."
+    m "You're going to stay right there until Kaede is back with a cure."
+    "*Thump*"
+
+    show hospital 56
+    m "Yukino! So I guess you evaded Kaede. But I'm glad you're back. We just need you to sit tight until Kaede gets back with a cure."
+    y "Ha! In this body, I don't think I can do much \"sitting\" any more. And besides, I'm not here to surrender. I'm here for round two."
+    m "I was afraid you'd say that. Alright then, let's do this!"
+
+    show hospital 57
+    "As Maika engages in combat with Yukino, she is oblivious to Chisato sneaking into the room from outside the window."
+    show hospital 57a
+    z "Chisato! You look great! Now get me out of here!"
+    c "Shhhhh! We have to do this quietly or Maika will notice."
+
+    show hospital 58
+    "Yukino puts on a good show trying to stall Maika, but Maika eventually lands a healthy blow."
+    m "It's over Yukino. Time to tie you up like Zoe."
+    show hospital 58a
+    y "Heh, like Zoe, huh?"
+
+    show hospital 59
+    m "Z... Zoe! But how did you?"
+    m "Ch... Chisato! No! That's what Yukino was doing?"
+    c "That's right, she paid me a delightful visit. And she promised me something. You."
+    m "Chisato, no! Stop! You have to fight this!"
+    "Maika's words only feed into Chisato's arousal. Seeing the proud justiciar helplessly struggling against the three nagas titillates Chisato to no end."
+    show hospital 60
+    "Chisato moves her fangs closer to Maika's skin. Slowly. Savoring every sound of Maika's resistance."
+    m "Chisato, no, please, stop! Stop! I don't want to be a snake! No! Please, let me go!"
+    "Maika begging for release was all that Chisato could take. She needed to release her venom. Now."
+
+    show hospital 61
+    window hide
+    pause
+    window show
+    m "No!"
+    "Maika weakly let out her last plea. But it was enough to send Chisato over the edge. The feeling of the venom leaving her mouth was unlike any orgasm she had experienced."
+
