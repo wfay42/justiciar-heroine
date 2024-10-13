@@ -311,3 +311,23 @@ label ch03_hospital_m_nagatf:
     m "No!"
     "Maika weakly let out her last plea. But it was enough to send Chisato over the edge. The feeling of the venom leaving her mouth was unlike any orgasm she had experienced."
 
+    show hospital 62
+    "Zoe releases Maika's arms. She knows the transformation has begun, and there is no need to restrain her comrade."
+    m "Chisato... What have you done to me?"
+    "Chisato just chuckles to herself, giving Maika no verbal response."
+
+    show hospital 62a with dissolve_2
+    "Within moments, the change spreads across half of Maika's face, and down her ponytail. Her hair takes on an even more vibrant color as her nose is replaced by slits, and her eyes become reptilian."
+
+    show hospital 62c with dissolve_2
+    "The change spreads even further, completing the transformation of Maika's face and hair."
+
+    show hospital 64c
+    "The nagas tear Maika's shirt off of her so that they can see how the change is developing."
+    c "Beautiful. You're progressing well."
+
+    show hospital 65c
+    "Maika is shocked and disgusted at the sight of her breasts growing rapidly; jiggling around like balloons."
+    "Her captors can't help but laugh at Maika's helplessness."
+
+
