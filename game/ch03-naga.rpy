@@ -325,9 +325,43 @@ label ch03_hospital_m_nagatf:
     show hospital 64c
     "The nagas tear Maika's shirt off of her so that they can see how the change is developing."
     c "Beautiful. You're progressing well."
+    show hospital 64d with dissolve_2
+    pause
 
     show hospital 65c
     "Maika is shocked and disgusted at the sight of her breasts growing rapidly; jiggling around like balloons."
     "Her captors can't help but laugh at Maika's helplessness."
 
+    show hospital 66
+    "Before she can say another word, Maika begins falling backwards as if she was pushed."
+
+    show hospital 67
+    m "Ack. What now?"
+
+    show hospital 68
+    m "*Gasp* No! No no no no no no no NO!"
+
+    show hospital 69
+    "Maika looks at her legs, or what is left of her legs. A beautiful snake tail is all that remains. Her body's transformation is complete."
+    jump ch03_hospital_hazel_helping
+
+label ch03_hospital_hazel_helping:
+    scene black
+    show hospital 70
+    h "Alright, the synthesis is complete. We've only got the one dose so far. The rest are still cooking."
+    s "I can make sure those finish processing. What do you think you'll do with that one?"
+    menu:
+        "Use on self":
+            jump ch03_hospital_bad_hazeltf
+        "Use on naga":
+            jump ch03_hospital_good_hazeltf
+
+label ch03_hospital_bad_hazeltf:
+    show hospital 71a
+    k "Best to innoculate myself so I can subdue them until the rest synthesize."
+
+
+label ch03_hospital_good_hazeltf:
+    show hospital 71b
+    k "I need to inject one of them soon before they spread further. If I can slow them down and rally our forces, we should be able to contain things."
 
