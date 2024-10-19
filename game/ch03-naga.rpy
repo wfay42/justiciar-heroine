@@ -16,6 +16,8 @@ Kaede and Hazel make antivenom
 Kaede bad end, she has antivenom, making her immune to bites, but gets incubated in an egg for multiple days until TF'd.
 """
 
+$ kaedeInnoculateSelf = False
+
 label ch03_start:
     scene black
     jump ch03_villain_intro
@@ -343,6 +345,37 @@ label ch03_hospital_m_nagatf:
 
     show hospital 69
     "Maika looks at her legs, or what is left of her legs. A beautiful snake tail is all that remains. Her body's transformation is complete."
+
+    show hospital 69a
+    c "That was so cute, the way you stumbled and fell. Don't worry, you're going to get used to that tail."
+    "Maika sits, dumbfounded, as her comrades kneel down besided her. Maika feels her skin get warm as Chisato's breast brushes against her ear. The closeness of the other nagas begins to make her sweat."
+    m "Chisato... we... we have to get the cure from Kaede. It's not too late!"
+    c "You're still on that? Do you think we want to go back to being boring humans? I think we need to convince you another way."
+
+    show hospital 69b
+    window hide
+    pause
+    window show
+    "Chisato and the other close in on Maika, deciding to give her a sexual pampering she won't forget."
+    m "Wha... what are you doing?"
+    c "Just giving you a little massage. Isn't that what friends are for?"
+    y "That's right, Maika. Just relax. Here, hold my hand while the others help you."
+    z "Exactly. Stop worrying and feel our hands sliding across your new, buttery soft body. Feel each finger as it passes by your nipples, up and down, and up and down."
+    m "No. Please. Stop! I can't handle much more of this. I think I'd lose my mind if you squeezed my breasts, even a little, as you slide over them. Please, anything but that!"
+    c "Oh, we wouldn't want that, would we?"
+    z "Oops, my hand slipped Maika, I hope that doesn't..."
+
+    show hospital 69c
+    window hide
+    pause
+    window show
+    m "Yes! Ohhhh fuck."
+    "With Zoe's slip of the wrist, Maika is sent over the edge."
+    c "Have we convinced you yet, Maika?"
+    m "Heh. Heh. Whoo. Yes, we need to share this everyone."
+    c "My thoughts exactly."
+
+
     jump ch03_hospital_hazel_helping
 
 label ch03_hospital_hazel_helping:
@@ -358,10 +391,19 @@ label ch03_hospital_hazel_helping:
 
 label ch03_hospital_bad_hazeltf:
     show hospital 71a
-    k "Best to innoculate myself so I can subdue them until the rest synthesize."
-
+    k "Best to innoculate myself so I can subdue them until the other doses synthesize."
+    $ kaedeInnoculateSelf = False
+    jump ch03_hospital_h_and_s_nagatf
 
 label ch03_hospital_good_hazeltf:
     show hospital 71b
     k "I need to inject one of them soon before they spread further. If I can slow them down and rally our forces, we should be able to contain things."
+    $ kaedeInnoculateSelf = True
+    jump ch03_hospital_h_and_s_nagatf
 
+label ch03_hospital_h_and_s_nagatf:
+    k "I still need to find Yukino first. Wish me luck."
+    """
+    K comes back, sees Hazel and Sumure licking nipples, rushes to them, gets ambushed by Maika and bitten.
+    At that point, decides where to use the syringe
+    """
