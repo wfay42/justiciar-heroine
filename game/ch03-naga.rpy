@@ -383,11 +383,9 @@ label ch03_hospital_hazel_helping:
     show hospital 70
     h "Alright, the synthesis is complete. We've only got the one dose so far. The rest are still cooking."
     s "I can make sure those finish processing. What do you think you'll do with that one?"
-    menu:
-        "Use on self":
-            jump ch03_hospital_bad_hazeltf
-        "Use on naga":
-            jump ch03_hospital_good_hazeltf
+
+    k "I'm sure I'll know what to do when the time is right."
+    jump ch03_hospital_h_and_s_nagatf
 
 label ch03_hospital_bad_hazeltf:
     show hospital 71a
@@ -402,8 +400,99 @@ label ch03_hospital_good_hazeltf:
     jump ch03_hospital_h_and_s_nagatf
 
 label ch03_hospital_h_and_s_nagatf:
-    k "I still need to find Yukino first. Wish me luck."
+    show hospital 71c
+    k "I still need to find Yukino. Wish me luck."
+
+    show hospital 72
+    "Kaede rushes through the hallways of the headquarters, unable to locate Yukino. Running out of ideas, she decides to give Maika another visit."
+
+    show hospital 73
+    k "Wait, where's Maika!? And Zoe is gone too. Ohh, this can't be good."
+    k "OK. Time to regroup with Hazel and Sumire. I hope those extra doses are ready."
+
+    show hospital 74a
+    "Rushing back to the lab..."
+    show hospital 74b
+    "Kaede is shocked by what she sees."
+
+    show hospital 75
+    window hide
+    pause
+    window show
+    "Hazel and Sumire are forced down to their knees, stripped completely naked."
+    show hospital 76
+    "Their mouths are forced to entertain the breasts of two nagas."
+    y "Looking for me, Kaede?"
+    c "We're glad you could join us."
+
+    show hospital 77
+    k "Ch... Chisato! No, not you too! I'm sorry, but I have to stop you!"
+
+    show hospital 78
+    "Before she can take another step, Kaede is ambushed. Without any warning, she feels two fangs sink deep into her neck along with the hot rush of venom entering her body."
+    k "Maika! No! They got you too! And now... and now me..."
+    k "I have to think fast, I need to use the syringe before it's too late."
+    menu:
+        "Use antidote on self":
+            ""
+            show hospital 79a
+        "Use antidote on Maika":
+            k "Sorry about this, Maika."
+            show hospital 79b
+            window hide
+            pause
+            window show
+            "Kaede thrusts the syringe into Maika's belly, catching the naga completely off guard."
+
+            show hospital g 01
+            z "Whoa there tiger. We got a fiesty one here."
+            "Maika reels from Kaede puncturing her with the syringe. Before Kaede can proceed any further, Zoe swoops in, grabbing her arms."
+            z "Well, it looks like our roles are reversed now, huh Kaede? You know, I didn't like being chained up to that gurney very much."
+            k "Maika, you have to resist the infection! You're our last hope now!"
+
+            show hospital g 02
+            z "Enough of that. How about we have a little sit and think about what we've done. And enjoy the show in front of you."
+
+            show hospital g 03
+            "Kaede had almost forgotten about Hazel and Sumire. Still forced onto their knees, pleasuring the nagas in front of them."
+            y "That's it Sumire, I'm almost there."
+            c "Oh god, me too. Keep it up Hazel."
+
+            show hospital g 04
+            window hide
+            pause
+            window show
+            "Chisato and Yukino unload juices from their breasts directly into the mouths of their victims, with spray landing over the rest of their bodies."
+
+            show hospital g 05
+            c "Thank you for that ladies. You two are dismissed."
+            h "Quick, Sumire, get the syringes before it's too late."
+
+            show hospital g 06
+            window hide
+            pause
+
+            show hospital g 07c
+            pause
+
+
+            show hospital g 07d with dissolve_2
+            pause
+            show hospital g 07e with dissolve_2
+            pause
+            show hospital g 07b with dissolve_2
+            pause
+
+            show hospital g 08
+            pause
+            show hospital g 09
+            pause
+            window show
+            ""
+
+label ch02_unused:
+    return
     """
-    K comes back, sees Hazel and Sumure licking nipples, rushes to them, gets ambushed by Maika and bitten.
+    K comes back, sees Hazel and Sumire licking nipples, rushes to them, gets ambushed by Maika and bitten.
     At that point, decides where to use the syringe
     """
