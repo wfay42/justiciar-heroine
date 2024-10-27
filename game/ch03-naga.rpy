@@ -437,58 +437,108 @@ label ch03_hospital_h_and_s_nagatf:
             ""
             show hospital 79a
         "Use antidote on Maika":
-            k "Sorry about this, Maika."
-            show hospital 79b
-            window hide
-            pause
-            window show
-            "Kaede thrusts the syringe into Maika's belly, catching the naga completely off guard."
+            jump ch03_goodend_kaede_tf
 
-            show hospital g 01
-            z "Whoa there tiger. We got a fiesty one here."
-            "Maika reels from Kaede puncturing her with the syringe. Before Kaede can proceed any further, Zoe swoops in, grabbing her arms."
-            z "Well, it looks like our roles are reversed now, huh Kaede? You know, I didn't like being chained up to that gurney very much."
-            k "Maika, you have to resist the infection! You're our last hope now!"
+label ch03_goodend_kaede_tf:
 
-            show hospital g 02
-            z "Enough of that. How about we have a little sit and think about what we've done. And enjoy the show in front of you."
+    k "Sorry about this, Maika."
+    show hospital 79b
+    window hide
+    pause
+    window show
+    "Kaede thrusts the syringe into Maika's belly, catching the naga completely off guard."
 
-            show hospital g 03
-            "Kaede had almost forgotten about Hazel and Sumire. Still forced onto their knees, pleasuring the nagas in front of them."
-            y "That's it Sumire, I'm almost there."
-            c "Oh god, me too. Keep it up Hazel."
+    show hospital g 01
+    z "Whoa there tiger. We got a feisty one here."
+    "Maika reels from Kaede puncturing her with the syringe. Before Kaede can proceed any further, Zoe swoops in, grabbing her arms."
+    z "Well, it looks like our roles are reversed now, huh Kaede? You know, I didn't like being chained up to that gurney very much."
+    k "Maika, you have to resist the infection! You're our last hope now!"
 
-            show hospital g 04
-            window hide
-            pause
-            window show
-            "Chisato and Yukino unload juices from their breasts directly into the mouths of their victims, with spray landing over the rest of their bodies."
+    show hospital g 02
+    z "Enough of that. How about we have a little sit and think about what we've done. And enjoy the show in front of you."
 
-            show hospital g 05
-            c "Thank you for that ladies. You two are dismissed."
-            h "Quick, Sumire, get the syringes before it's too late."
+    show hospital g 03
+    "Kaede had almost forgotten about Hazel and Sumire. Still forced onto their knees, pleasuring the nagas in front of them."
+    y "That's it Sumire, I'm almost there."
+    c "Oh god, me too. Keep it up Hazel."
 
-            show hospital g 06
-            window hide
-            pause
+    show hospital g 04
+    window hide
+    pause
+    window show
+    "Chisato and Yukino unload juices from their breasts directly into the mouths of their victims, with spray landing over the rest of their bodies."
 
-            show hospital g 07c
-            pause
+    show hospital g 05
+    c "Thank you for that ladies. You two are dismissed."
+    h "Quick, Sumire, get the syringes before it's too late."
+    s "Y... yes. I'm going. Urg. Why do my legs feel like jelly?"
+
+    show hospital g 06
+    window hide
+    pause
+    window show
+    s "Oh no!"
+    h "But how!?"
+    "Hazel and Sumire are shocked to find their lower extremeties have been replaced by the same snake tails of their comrades."
+
+    show hospital g 07c
+    window hide
+    pause
+    window show
+    s "Hazel, I'm scared! What... what do we do?"
+    h "It's too late. We can't move our bodies in this state."
 
 
-            show hospital g 07d with dissolve_2
-            pause
-            show hospital g 07e with dissolve_2
-            pause
-            show hospital g 07b with dissolve_2
-            pause
+    show hospital g 07d with dissolve_2
+    h "I'm sorry to say, but we've lost."
+    show hospital g 07e with dissolve_2
+    h "Once we finish the transformation, we're going to like it. Just like them. Even though we have the antidote we won't want to use it."
+    show hospital g 07b with dissolve_2
+    h "We're going to be sex-crazed nagas, just like them."
 
-            show hospital g 08
-            pause
-            show hospital g 09
-            pause
-            window show
-            ""
+    show hospital g 08
+    z "You say that like it's a bad thing. Well Kaede, how did you like the show?"
+    z "Kaede?"
+    show hospital g 09
+    window hide
+    pause
+    window show
+    k "Oh yesssss. It was amazing."
+    "While everyone was distracted by Hazel and Sumire's struggles, Kaede had completely transformed as well. The venom had already completely taken over her body and corrupted her mind."
+
+    jump ch03_goodend_maika
+
+label ch03_goodend_maika:
+    show hospital g 10
+    "As all of her friends have completed their transformation into nagas, Maika begins to feel as if a fog has lifted from her mind."
+    m "Wha... what have I been doing? Zoe was tied to the bed, then... then Yukino came in, then Chisato, that's right! And then they..."
+
+    show hospital g 11
+    m "*Gasp* That's right, they turned me into a naga too!"
+    m "But Kaede hit me with that syringe. OK, that must be the cure. Am I going to turn back to a human? I'd better hurry and do something before then or else they'll just do it to me again."
+
+    show hospital g 12
+    m "They got Sumire and Hazel too. And Kaede... I'm sorry. I wasn't strong enough to stop them. But I'll make this right."
+    h "Hey Maika, we were going to do some science experiments with our new bodies. Care to join us? It's for science."
+
+    show hospital g 13
+    m "Oh yeah, sure, you know I'd never miss anything for science! I just, uh, need to use the bathroom for a minute."
+
+    show hospital g 14
+    m "Great, there's only three of them. There's no way I can take them all out. Unless..."
+
+    show hospital g 15
+    m "This is such a terrible idea. It'd better work..."
+    "Maika feels some swelling in her breasts. They begin to feel firmer and tighter. A sensation similar to needing to pee, she knows it's coming soon."
+
+    show hospital g 16
+    m "Hey ladies, open wide!"
+
+    show hospital g 17
+    "Maika's body can hold on no longer. Her breasts shoot out liquid, just as Yukino and Chisato had done earlier."
+
+    show hospital g 18
+    "The nagas all open their mouths gladly, excited to see Maika joining in on the fun."
 
 label ch02_unused:
     return
