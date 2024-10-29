@@ -526,19 +526,44 @@ label ch03_goodend_maika:
 
     show hospital g 14
     m "Great, there's only three of them. There's no way I can take them all out. Unless..."
+    m "Ugh, this is such a terrible idea. But it's the only one I've got."
 
     show hospital g 15
-    m "This is such a terrible idea. It'd better work..."
+    m "Come to mama! God, I hope this works..."
     "Maika feels some swelling in her breasts. They begin to feel firmer and tighter. A sensation similar to needing to pee, she knows it's coming soon."
 
     show hospital g 16
     m "Hey ladies, open wide!"
 
     show hospital g 17
-    "Maika's body can hold on no longer. Her breasts shoot out liquid, just as Yukino and Chisato had done earlier."
+    "Maika's body can hold on no longer. Her breasts shoot out a firehose of liquid, enhanced by the overdose of the serum."
 
     show hospital g 18
     "The nagas all open their mouths gladly, excited to see Maika joining in on the fun."
+    h "Yeahhh, Maika! That was great!"
+
+    show hospital g 19
+    m "Heh. Yeah. Greaaaaat."
+    "Maika feels completely spent after that eruption. She can't stand for another second, and begins to fall backward."
+
+    show hospital g 20a
+    m "I... I did it."
+    show hospital g 20b with dissolve_2
+    m "Now it's time for a nap."
+
+    show hospital g 21a
+    h "Does this stuff taste funny to you?"
+    s "Yeah, it doesn't taste like Yukino's milk."
+    show hospital g 21b with dissolve_2
+    k "Wait, we're human again. I knew trusting Maika was the right choice. Wait, where is Maika?"
+
+    show hospital g 22
+    "With another villainous plot thwarted by our heroines, Maika takes a well-deserved rest. Although she's going to get cold lying there. Someone should probably bring her a blanket."
+
+    show hospital g 22 with dissolve:
+        matrixcolor SaturationMatrix(0)
+    "End of Chapter 3."
+
 
 label ch02_unused:
     return
