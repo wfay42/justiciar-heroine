@@ -18,16 +18,41 @@ Kaede bad end, she has antivenom, making her immune to bites, but gets incubated
 
 $ kaedeInnoculateSelf = False
 
+define nagas = Character("Naga Troopers", who_color="#cc66cc")
+
 label ch03_start:
-    scene black
+    scene black with dissolve
     jump ch03_villain_intro
 
 label ch03_villain_intro:
-    ""
+    scene black
+    "Chapter 3"
+    show hospital v 01 with dissolve
+    v "Well, that plan with Amane was a complete failure. Naga troopers, I hope your plots are performing better."
+
+    show hospital v 02
+    nagas "Yes mistress. It has taken many years, but through a combination of tax loopholes, shell companies, bribery, blackmail, and exploitation of existing corruption within the local government, we have been able to inject ourselves into the local healthcare supply chain!"
+
+    show hospital v 03
+    v "Disrupting a necessary part of modern society is certainly nefarious, which I love, but how does that further our plans to defeat the Justiciars?"
+
+    show hospital v 02
+    nagas "We have been able to displace an existing trusted healthcare vendor for one type of common injection."
+
+    show hospital v 03
+    v "I'm still lost."
+
+    show hospital v 04
+    nagas "We have replaced the true injection with our naga venom. In no time, our naga army will grow to become unstoppable."
+
+    show hospital v 05
+    v "Quite a complicated plan, but if you can pull this off, I will be very pleased. Report back to me as we see the results of this."
+    scene black with dissolve
+
     jump ch03_hospital_01
 
 label ch03_hospital_01:
-    scene bg hospital 01
+    scene bg hospital 01 with dissolve
     "We join our heroines in the medical ward of Justiciar HQ. Kaede dutifully takes cares of her injured comrades."
     show hospital 01
     k "And how is my favorite patient doing?"
@@ -560,14 +585,20 @@ label ch03_goodend_maika:
     show hospital g 22
     "With another villainous plot thwarted by our heroines, Maika takes a well-deserved rest. Although she's going to get cold lying there. Someone should probably bring her a blanket."
 
-    show hospital g 22 with dissolve:
+
+label ch03_villain_outro:
+    scene black
+    show hospital v 06
+    v "Another failure. Explain yourselves."
+    show hospital v 07
+    nagas "Somehow, the health inspector was tipped off to our plot and revoked our corporation's authorization to distribute. As part of their investigation, they've also begun auditing our shell company!"
+    v "Without the corporate babble!"
+    nagas "They figured out our injections were naga venom that would transform people into nagas, then shut us down, and are distributing the anti-venom."
+    v "With the amount of resources you three have wasted, I should have you executed. But I have a better idea. A fate worse than death."
+
+    show hospital v 08
+    v "You're banished to the accounting department!"
+
+    show hospital v 08 with dissolve:
         matrixcolor SaturationMatrix(0)
     "End of Chapter 3."
-
-
-label ch02_unused:
-    return
-    """
-    K comes back, sees Hazel and Sumire licking nipples, rushes to them, gets ambushed by Maika and bitten.
-    At that point, decides where to use the syringe
-    """
