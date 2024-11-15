@@ -7,12 +7,12 @@ Sumire gets entangled in new makeup, which is really Atsugessho
 
 define atsu = Character("Amane", who_color="#aaaaaa")
 
-label ch02_start:
+label ch01_start:
     scene black
     "Chapter 1"
-    jump ch02_villain_intro
+    jump ch01_villain_intro
 
-label ch02_villain_intro:
+label ch01_villain_intro:
     scene black
     show v atsu 01 with dissolve
     v "Those damn Justiciars continue to foil our plans. I hope you have a plan, Amane."
@@ -31,10 +31,10 @@ label ch02_villain_intro:
     show v atsu 05
     atsu "Of course, mistress."
 
-    jump ch02_at_salon
+    jump ch01_at_salon
 
 
-label ch02_at_salon:
+label ch01_at_salon:
     scene bg hq
     "After a successful mission, the Justiciars are relaxing."
 
@@ -125,9 +125,9 @@ label ch02_at_salon:
     atsu "She will be a crucial component of the plan."
     hide s atsu 16 with dissolve_2
 
-    jump ch02_saturday_street
+    jump ch01_saturday_street
 
-label ch02_saturday_street:
+label ch01_saturday_street:
     scene bg street
     show h atsu 01
     "The next day, Sumire bubbles with excitement as she makes her way to the salon, practically sprinting."
@@ -148,9 +148,9 @@ label ch02_saturday_street:
     show h atsu 04
     "Without another word, Sumire grabs Hazel's hand and starts skipping down the road to the salon."
 
-    jump ch02_saturday_salon
+    jump ch01_saturday_salon
 
-label ch02_saturday_salon:
+label ch01_saturday_salon:
     scene bg salon
     show h atsu 05
     atsu "Welcome back young miss. And I see you've brought a friend!"
@@ -227,9 +227,9 @@ label ch02_saturday_salon:
     s "Of course mistress."
     hide h atsu 14b with dissolve_2
 
-    jump ch02_saturday_hazel_date
+    jump ch01_saturday_hazel_date
 
-label ch02_saturday_hazel_date:
+label ch01_saturday_hazel_date:
     scene bg shopping
     show h atsu 15
     "Hazel strolls, no, struts down the street with a newfound confidence. The nervous woman from the morning is gone, replaced by a stunning femme fatale."
@@ -310,7 +310,7 @@ label ch02_saturday_hazel_date:
     "The man can barely muster a groan before falling unconcious."
     h "Heh, fine, you can sleep here tonight. All the better to get to work tomorrow."
 
-label ch02_sunday_hq:
+label ch01_sunday_hq:
     scene bg hq
     "After a short weekend, the Justiciars returned to work, like any normal day. Although it would end up being anything but normal."
 
@@ -338,7 +338,7 @@ label ch02_sunday_hq:
     c "Yes. You two go first. I'll call Maika and Yukino. They were already in the middle of a call, so they'll meet you there when they wrap up."
     k "Aye aye, captain."
 
-label ch02_sunday_street:
+label ch01_sunday_street:
     scene bg street
     show z atsu 05
     m "Hey, Yukino, we've got a message from the director. Says we need to rendezvous with Kaede and Zoe at some salon downtime."
@@ -348,7 +348,7 @@ label ch02_sunday_street:
     show z atsu 06
     k "What? Them? Resigning? That is weird. Alright, lead on."
 
-label ch02_sunday_salon:
+label ch01_sunday_salon:
     scene bg salon entrance
     "By the time Maika and Yukino arrive, the main room of the salon is empty."
     show z atsu 07
@@ -370,11 +370,11 @@ label ch02_sunday_salon:
     y "What's the play, cap?"
     menu:
         "Run straight for the beautician and try to defeat her":
-            jump ch02_sunday_salon_badend
+            jump ch01_sunday_salon_badend
         "Find the source of the hypnosis":
-            jump ch02_sunday_salon_goodend
+            jump ch01_sunday_salon_goodend
 
-label ch02_sunday_salon_badend:
+label ch01_sunday_salon_badend:
     show z atsu 11
     m "We don't have much time. We have to rush in there and incapacitate their leader. It's the only way to save our friends."
 
@@ -402,9 +402,9 @@ label ch02_sunday_salon_badend:
     m "It's over. Free our friends and we might let you go."
     atsu "I would, but it seems your friends can't seem to let *you* go."
 
-    jump ch02_sunday_salon_badend_sitdown
+    jump ch01_sunday_salon_badend_sitdown
 
-label ch02_sunday_salon_badend_sitdown:
+label ch01_sunday_salon_badend_sitdown:
     show z atsu bad 06
     "In a moment of complete surprise, Maika and Yukino feel themselves get grabbed by the shoulders and shoved down into one of the salon's couches."
     "Speechless, they can't understand how they were bested."
@@ -439,9 +439,9 @@ label ch02_sunday_salon_badend_sitdown:
 
     show z atsu bad 12
     atsu "Now enough exposition, I'm glad I saved the best for last."
-    jump ch02_sunday_salon_badend_hq
+    jump ch01_sunday_salon_badend_hq
 
-label ch02_sunday_salon_badend_hq:
+label ch01_sunday_salon_badend_hq:
     scene bg hq
     "Later, back at HQ."
     show z atsu bad 13
@@ -490,7 +490,7 @@ label ch02_sunday_salon_badend_hq:
     return
 
 
-label ch02_sunday_salon_goodend:
+label ch01_sunday_salon_goodend:
     show z atsu 11
     m "There's five of them, they'll overpower us. We have to find the source of the hypnosis."
     y "I'm guessing it's whatever is making this smell. Let's track it through the vents."
@@ -508,11 +508,11 @@ label ch02_sunday_salon_goodend:
 
     menu:
         "Break it":
-            jump ch02_sunday_salon_goodend_break
+            jump ch01_sunday_salon_goodend_break
         "Study it":
-            jump ch02_sunday_salon_goodend_study
+            jump ch01_sunday_salon_goodend_study
 
-label ch02_sunday_salon_goodend_break:
+label ch01_sunday_salon_goodend_break:
     y "We have to break it! With it gone, we'll surely get our friends back."
     show z atsu g 04
     "Grasping the object, Yukino pulls and pushes at every angle, trying to destroy the object in their confined space."
@@ -524,9 +524,9 @@ label ch02_sunday_salon_goodend_break:
 
     show z atsu g 06
     "With a crash, the vent separates from the section in front of it. Yukino's banging finally did something, albeit not what she expected."
-    jump ch02_sunday_salon_goodend_break2
+    jump ch01_sunday_salon_goodend_break2
 
-label ch02_sunday_salon_goodend_study:
+label ch01_sunday_salon_goodend_study:
     y "Let's take a look at it. Everything has a weak spot."
     "Inspecting the object, it seems as tough as steel.  But the heart design does draw some attention."
     m "I'm wondering if that little heart is the key."
@@ -534,9 +534,9 @@ label ch02_sunday_salon_goodend_study:
 
     show z atsu g 06
     "With a crash, the vent separates from the section in front of it."
-    jump ch02_sunday_salon_goodend_break2
+    jump ch01_sunday_salon_goodend_break2
 
-label ch02_sunday_salon_goodend_break2:
+label ch01_sunday_salon_goodend_break2:
     y "The device!"
     m "Grab it!"
 
@@ -559,7 +559,7 @@ label ch02_sunday_salon_goodend_break2:
     show z atsu g 10
     "With the villain defeated, the only thing left to do was fall face-first onto the ground."
 
-label ch02_goodend:
+label ch01_goodend:
     scene bg hq
     "An hour later, back at HQ."
     show z atsu g 11
@@ -602,4 +602,4 @@ label ch02_goodend:
     show z atsu g 16 with dissolve:
         matrixcolor SaturationMatrix(0)
     "End of Chapter 1."
-    jump ch03_start
+    jump ch02_start

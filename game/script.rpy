@@ -56,6 +56,6 @@ label intro:
     scene white
     "The Justiciars protect Earth from the villainous Dark Sisterhood, led by the witch Vivienne."
 
-    jump ch02_start
+    jump ch01_start
 
     return

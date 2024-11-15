@@ -20,11 +20,11 @@ $ kaedeInnoculateSelf = False
 
 define nagas = Character("Naga Troopers", who_color="#cc66cc")
 
-label ch03_start:
+label ch02_start:
     scene black with dissolve
-    jump ch03_villain_intro
+    jump ch02_villain_intro
 
-label ch03_villain_intro:
+label ch02_villain_intro:
     scene black
     "Chapter 2"
     show hospital v 01 with dissolve
@@ -49,9 +49,9 @@ label ch03_villain_intro:
     v "Quite a complicated plan, but if you can pull this off, I will be very pleased. Report back to me as we see the results of this."
     scene black with dissolve
 
-    jump ch03_hospital_01
+    jump ch02_hospital_01
 
-label ch03_hospital_01:
+label ch02_hospital_01:
     scene bg hospital 01 with dissolve
     "We join our heroines in the medical ward of Justiciar HQ. Kaede dutifully takes cares of her injured comrades."
     show hospital 01
@@ -94,9 +94,9 @@ label ch03_hospital_01:
     "Zoe lays down, having trouble finding a comfortable spot. She didn't want to worry her friend, but she does think she may have some kind of reaction to the injection."
     "Zoe calms herself down a bit. She knows that if things get worse, she'll call Kaede back."
 
-    jump ch03_hospital_z_nagatf
+    jump ch02_hospital_z_nagatf
 
-label ch03_hospital_z_nagatf:
+label ch02_hospital_z_nagatf:
     show hospital 09
     "After half an hour, Zoe begins sweating as she lays on her back."
     show hospital 10
@@ -123,9 +123,9 @@ label ch03_hospital_z_nagatf:
     "Her boots melt off of her feet. With her legs unable to squeeze together any tighter, they begin to merge together."
     show hospital 18 with dissolve_2
     "Within a few moments, her legs have merged, covering themselves in scales like the rest of her body."
-    jump ch03_hospital_y_nagatf
+    jump ch02_hospital_y_nagatf
 
-label ch03_hospital_y_nagatf:
+label ch02_hospital_y_nagatf:
     show hospital 19
     "Unaccustomed to a tail where her legs used to be, Zoe clumsily rolls over, hoping to get the attention of Yukino, sleeping in the bed next to her."
     show hospital 20
@@ -175,7 +175,7 @@ label ch03_hospital_y_nagatf:
     window show
     "Yukino's strong fortitude allows her to sleep through the transformation, completely undisturbed."
 
-label ch03_hospital_maika_inspection:
+label ch02_hospital_maika_inspection:
     show hospital 35
     "A few minutes later, Kaede returns with Maika."
     k "I'm sure you visiting Zoe and Yukino will make them both feel better."
@@ -219,9 +219,9 @@ label ch03_hospital_maika_inspection:
     h "Oh, sure thing. Were they tainted and now they're turning people into monsters?"
     k "Yes, exactly. Snake monsters. Wait, how the hell did you guess that?"
     h "You work in this lab long enough, you see a lot. I'm on it. Give me five minutes. Ten, tops."
-    jump ch03_hospital_c_nagatf
+    jump ch02_hospital_c_nagatf
 
-label ch03_hospital_c_nagatf:
+label ch02_hospital_c_nagatf:
     show hospital 43
     "Elsewhere, Director Chisato is hard at work in her office."
     "Little does she know, she has an uninvited guest."
@@ -294,9 +294,9 @@ label ch03_hospital_c_nagatf:
     show hospital 54
     c "OK, my sister. We have work to do."
     y "Yes! That's what I'm talking about!"
-    jump ch03_hospital_m_nagatf
+    jump ch02_hospital_m_nagatf
 
-label ch03_hospital_m_nagatf:
+label ch02_hospital_m_nagatf:
     show hospital 55
     "Maika stands diligently, watching the captive Zoe."
     z "Maika, can you let me out of this already? My venom's refractory period is over, and I feel like I need a bite."
@@ -401,30 +401,30 @@ label ch03_hospital_m_nagatf:
     c "My thoughts exactly."
 
 
-    jump ch03_hospital_hazel_helping
+    jump ch02_hospital_hazel_helping
 
-label ch03_hospital_hazel_helping:
+label ch02_hospital_hazel_helping:
     scene black
     show hospital 70
     h "Alright, the synthesis is complete. We've only got the one dose so far. The rest are still cooking."
     s "I can make sure those finish processing. What do you think you'll do with that one?"
 
     k "I'm sure I'll know what to do when the time is right."
-    jump ch03_hospital_h_and_s_nagatf
+    jump ch02_hospital_h_and_s_nagatf
 
-label ch03_hospital_bad_hazeltf:
+label ch02_hospital_bad_hazeltf:
     show hospital 71a
     k "Best to innoculate myself so I can subdue them until the other doses synthesize."
     $ kaedeInnoculateSelf = False
-    jump ch03_hospital_h_and_s_nagatf
+    jump ch02_hospital_h_and_s_nagatf
 
-label ch03_hospital_good_hazeltf:
+label ch02_hospital_good_hazeltf:
     show hospital 71b
     k "I need to inject one of them soon before they spread further. If I can slow them down and rally our forces, we should be able to contain things."
     $ kaedeInnoculateSelf = True
-    jump ch03_hospital_h_and_s_nagatf
+    jump ch02_hospital_h_and_s_nagatf
 
-label ch03_hospital_h_and_s_nagatf:
+label ch02_hospital_h_and_s_nagatf:
     show hospital 71c
     k "I still need to find Yukino. Wish me luck."
 
@@ -457,9 +457,9 @@ label ch03_hospital_h_and_s_nagatf:
     "Before she can take another step, Kaede is ambushed. Without any warning, she feels two fangs sink deep into her neck along with the hot rush of venom entering her body."
     k "Maika! No! They got you too! And now... and now me..."
     k "I have to think fast, I need to use the syringe before it's too late."
-    jump ch03_goodend_kaede_tf
+    jump ch02_goodend_kaede_tf
 
-label ch03_goodend_kaede_tf:
+label ch02_goodend_kaede_tf:
 
     k "Sorry about this, Maika."
     show hospital 79b
@@ -526,9 +526,9 @@ label ch03_goodend_kaede_tf:
     k "Oh yesssss. It was amazing."
     "While everyone was distracted by Hazel and Sumire's struggles, Kaede had completely transformed as well. The venom had already completely taken over her body and corrupted her mind."
 
-    jump ch03_goodend_maika
+    jump ch02_goodend_maika
 
-label ch03_goodend_maika:
+label ch02_goodend_maika:
     show hospital g 10
     "As all of her friends have completed their transformation into nagas, Maika begins to feel as if a fog has lifted from her mind."
     m "Wha... what have I been doing? Zoe was tied to the bed, then... then Yukino came in, then Chisato, that's right! And then they..."
@@ -581,7 +581,7 @@ label ch03_goodend_maika:
     "With another villainous plot thwarted by our heroines, Maika takes a well-deserved rest. Although she's going to get cold lying there. Someone should probably bring her a blanket."
 
 
-label ch03_villain_outro:
+label ch02_villain_outro:
     scene black
     show hospital v 06
     v "Another failure. Explain yourselves."
