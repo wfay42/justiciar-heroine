@@ -8,11 +8,13 @@ Sumire gets entangled in new makeup, which is really Atsugessho
 define atsu = Character("Amane", who_color="#aaaaaa")
 
 label ch02_start:
+    scene black
+    "Chapter 1"
     jump ch02_villain_intro
 
 label ch02_villain_intro:
     scene black
-    show v atsu 01
+    show v atsu 01 with dissolve
     v "Those damn Justiciars continue to foil our plans. I hope you have a plan, Amane."
 
     show v atsu 02
@@ -599,5 +601,5 @@ label ch02_goodend:
     s "Hell yeah."
     show z atsu g 16 with dissolve:
         matrixcolor SaturationMatrix(0)
-    "End of Chapter 2."
+    "End of Chapter 1."
     jump ch03_start

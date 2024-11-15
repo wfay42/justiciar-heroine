@@ -13,6 +13,9 @@ define v = Character("Vivienne", who_color="#880088")
 define y = Character("Yukino", who_color="#eeee00")
 define z = Character("Zoe", who_color="#bbbbbb")
 
+# colors
+image white = "#ffffff"
+
 # A smooth dissolve over 2 seconds
 define dissolve_2 = Dissolve(2)
 
@@ -28,7 +31,7 @@ label intro:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg hq
+    scene white
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -49,6 +52,9 @@ label intro:
     "Sumire, the idol. Sumire is responsible for the public image of the Justiciars and acts as a moral compass for the group."
     show m intro
     "Maika, the leader. With a feeling of deep responsibility, Maika takes charge of any situation, leading her Justiciars into danger, but always back home again."
+
+    scene white
+    "The Justiciars protect Earth from the villainous Dark Sisterhood, led by the witch Vivienne."
 
     jump ch02_start
 

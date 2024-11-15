@@ -26,7 +26,7 @@ label ch03_start:
 
 label ch03_villain_intro:
     scene black
-    "Chapter 3"
+    "Chapter 2"
     show hospital v 01 with dissolve
     v "Well, that plan with Amane was a complete failure. Naga troopers, I hope your plots are performing better."
 
@@ -457,12 +457,7 @@ label ch03_hospital_h_and_s_nagatf:
     "Before she can take another step, Kaede is ambushed. Without any warning, she feels two fangs sink deep into her neck along with the hot rush of venom entering her body."
     k "Maika! No! They got you too! And now... and now me..."
     k "I have to think fast, I need to use the syringe before it's too late."
-    menu:
-        "Use antidote on self":
-            ""
-            show hospital 79a
-        "Use antidote on Maika":
-            jump ch03_goodend_kaede_tf
+    jump ch03_goodend_kaede_tf
 
 label ch03_goodend_kaede_tf:
 
@@ -601,4 +596,4 @@ label ch03_villain_outro:
 
     show hospital v 08 with dissolve:
         matrixcolor SaturationMatrix(0)
-    "End of Chapter 3."
+    "End of Chapter 2."
