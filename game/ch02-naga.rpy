@@ -1,7 +1,7 @@
 # Characters and other variables are defined in script.rpy
 
 """
-Chapter 03: Naga
+Chapter 02: Naga
 Kaede is heroine of this story.
 Kaede gives new medicine to patients, turns out to be naga venom, TF'ing them.
 Zoe and Yukino TF first in medical ward.
