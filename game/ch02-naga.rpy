@@ -597,3 +597,4 @@ label ch02_villain_outro:
     show hospital v 08 with dissolve:
         matrixcolor SaturationMatrix(0)
     "End of Chapter 2."
+    jump ch03_start
