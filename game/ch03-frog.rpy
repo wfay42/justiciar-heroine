@@ -29,8 +29,35 @@ label ch03_villain_intro:
     v "Another slow-burn plan, but indeed, it seems like it will work. Then go, my beautiful damp servant, and make the Dark Sisterhood proud!"
     jump ch03_hotspring_villain_appears
 
-label ch03_lake_start:
+label ch03_hotspring_start:
     scene black
+    k "So you've never been to a Japanese hot spring, Zoe?"
+    z "Can't say that I have. I've been so busy with Justiciar stuff I never found the time after moving here."
+    m "Well, you're going to love it. It's something truly special you can't get anywhere else in world."
+    y "Yup, nowhere else. Except Austria, Costa Rica, Italy, Iceland, Chile, Canada..."
+    m "Shush! It's special!"
+
+    scene black
+    mina "Hello and welcome to the Yakitori hot springs. How many are you checking in?"
+    h "Five. Reservation is under Justiciar Industries."
+    k "Oh yeah, it's a shame Chisato and Sumire couldn't come. They would have loved it."
+    m "Well, someone had to stay back at base in case anything urgent comes up. Chisato's the director, so that made sense, but I bet Sumire is devastated she drew the short straw."
+    y "I bet. But there's nobody she can blame. It was all just the luck of the draw. No funny business was invovled at all."
+    k "Well, if that wasn't suspicious."
+
+    mina "Alright ladies, I was just about to prepare the hot spring for you, so feel free to relax for a few minutes until I open it up."
+    y "Great. Where's the room for me to strip in?"
+    z "Strip? Oh, this is one of those hot springs where we go in... naked?"
+    h "I know it sounds strange, but you get used to it. After I moved to Japan, it took a couple tries, but now it's as normal as taking a shower."
+    h "If you're not sure you want to go, I'm happy to stick with you, Zoe. What do you say?"
+    menu:
+        "Muster your courage and go to the hot spring with the others":
+            z "N... no. I can handle it! If I'm able to fight all those villains, the least I can do it get... nude in front of my coworkers."
+            h "That's the spirit!"
+        "Value your privacy and hang out with Hazel":
+            z "I... uh... let's hang out for a bit. Maybe I'll dip into the hot spring later."
+            h "Sure, let's go for a walk around the resort."
+
 
 label ch03_hotspring_villain_appears:
     scene frog mx 01
