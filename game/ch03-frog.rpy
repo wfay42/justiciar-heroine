@@ -114,3 +114,60 @@ label ch03_hotspring_villain_appears:
     mina "Ribbit ribbit!"
     frog "Then let's get started!"
 
+label ch03_zoe_joins:
+    scene frog 02 01
+    h "See, isn't this the best, Zoe?"
+    scene frog 02 02
+    z "Y... yeah. Yup. Definitely. Relaxing. Loving this. Really."
+
+    scene frog 02 03
+    y "Heh, loosen up Zoe. After that whole naga thing we've all seen each other naked. There's no secrets here."
+    m "Enough Yuki. Just let Zoe get into it on her own terms. Quit bugging her."
+    y "Sure thing, I've got plenty more to bug you about, Maika."
+
+    show frog 02 04
+    "Little do our heroines know, below the surface of the water lays something sinister."
+    show frog 02 05
+    "The transformed Minako lay at the bottom of the hot spring."
+    show frog 02 06
+    "Small frog eggs leak from her body, and begin floating around in the water. The stream of eggs seems endless."
+
+    show frog 02 07a
+    "The innocuous-looking eggs float up towards our heroines, lodging themselves in their clefts."
+    show frog 02 07b
+    "One by one, they begin to embed in the warm bodies of the Justiciars."
+
+    show frog 02 08a
+    "The changes begin slowly, undetected by the heroines."
+    window hide
+    show frog 02 08b with dissolve_2
+    pause
+    window show
+    "Unlike Minako's forceful transformation, this is far more subtle and insidious. The Justiciars don't even know to resist anything."
+
+    show frog 02 09b
+    "Before long, it is too late. By the time they notice their transformation, there is nothing they can do to reverse it."
+
+    show frog 02 10
+    frog "Oh ho ho, such beauties have joined my clan. Welcome, daughters."
+
+    show frog 02 11a
+    frog "Are you ready to begin your work to expand our family?"
+
+    show frog 02 11b with dissolve_2
+    m "Ribbit!"
+    z "Ribbit!"
+
+    show frog 02 11b with dissolve:
+        matrixcolor SaturationMatrix(0)
+
+    "Frog Bad End 1\nMaybe Zoe joining her comrades in the pool was a mistake."
+    return
+
+label ch03_zoe_skips:
+    scene frog 03 01
+    # at hot spring
+    y "Yessssss. This is what I was looking for. It's a shame Zoe didn't want to come."
+    m "It's fine. Give her some time and I'm sure she'll come around."
+    k "That just means more hot spring for us, heehee."
+
