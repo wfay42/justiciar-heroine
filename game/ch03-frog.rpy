@@ -15,7 +15,7 @@ Maybe Hazel lets herself get eaten with some kind of thing that gives indigestio
 define frog = Character("Frogra", who_color="#22ee22")
 define mina = Character("Minako", who_color="#444444")
 
-$ frogZoeChooseNaked = False
+$ frogZoeJoins = False
 
 label ch03_start:
     scene black with dissolve
@@ -60,20 +60,23 @@ label ch03_hotspring_start:
     h "If you're not sure you want to go, I'm happy to stick with you, Zoe. What do you say?"
     menu:
         "Muster your courage and go to the hot spring with the others":
-            $ frogZoeChooseNaked = True
+            $ frogZoeJoins = True
             z "N... no. I can handle it! If I'm able to fight all those villains, the least I can do is get... nude.. in front of my coworkers?"
             h "That's the spirit!"
         "Value your privacy and hang out with Hazel":
-            $ frogZoeChooseNaked = False
+            $ frogZoeJoins = False
             z "I... uh... let's hang out for a bit. Maybe I'll dip into the hot spring later."
             h "Sure, let's go for a walk around the resort."
 
     show frog 01 02
     mina "Great, please wait here while I prepare the hot spring."
-    jump ch03_hotspring_villain_appears
+    call ch03_CALL_hotspring_villain_appears from ch03_hotspring_start_call01
+    if frogZoeJoins:
+        jump ch03_zoe_joins
+    else:
+        jump ch03_zoe_skips
 
-
-label ch03_hotspring_villain_appears:
+label ch03_CALL_hotspring_villain_appears:
     scene frog mx 00
     "Minako begins her work to prepare the spring for her new guests. She hears quiet, almost squishy, footsteps on the ground behind her as someone approaches."
 
@@ -113,19 +116,9 @@ label ch03_hotspring_villain_appears:
     show frog mx 12
     mina "Ribbit ribbit!"
     frog "Then let's get started!"
+    return
 
-label ch03_zoe_joins:
-    scene frog 02 01
-    h "See, isn't this the best, Zoe?"
-    scene frog 02 02
-    z "Y... yeah. Yup. Definitely. Relaxing. Loving this. Really."
-
-    scene frog 02 03
-    y "Heh, loosen up Zoe. After that whole naga thing we've all seen each other naked. There's no secrets here."
-    m "Enough Yuki. Just let Zoe get into it on her own terms. Quit bugging her."
-    y "Sure thing, I've got plenty more to bug you about, Maika."
-
-    show frog 02 04
+label ch03_CALL_eggs_01:
     "Little do our heroines know, below the surface of the water lays something sinister."
     show frog 02 05
     "The transformed Minako lay at the bottom of the hot spring."
@@ -134,6 +127,9 @@ label ch03_zoe_joins:
 
     show frog 02 07a
     "The innocuous-looking eggs float up towards our heroines, lodging themselves in their clefts."
+    return
+
+label ch03_CALL_eggs_02_with_zoe:
     show frog 02 07b
     "One by one, they begin to embed in the warm bodies of the Justiciars."
 
@@ -157,6 +153,21 @@ label ch03_zoe_joins:
     show frog 02 11b with dissolve_2
     m "Ribbit!"
     z "Ribbit!"
+    return
+
+label ch03_zoe_joins:
+    scene frog 02 01
+    h "See, isn't this the best, Zoe?"
+    scene frog 02 02
+    z "Y... yeah. Yup. Definitely. Relaxing. Loving this. Really."
+
+    scene frog 02 03
+    y "Heh, loosen up Zoe. After that whole naga thing we've all seen each other naked. There's no secrets here."
+    m "Enough Yuki. Just let Zoe get into it on her own terms. Quit bugging her."
+    y "Sure thing, I've got plenty more to bug you about, Maika."
+
+    call ch03_CALL_eggs_01 from ch03_zoe_joins_call01
+    call ch03_CALL_eggs_02_with_zoe from ch03_zoe_joins_call02
 
     show frog 02 11b with dissolve:
         matrixcolor SaturationMatrix(0)
@@ -165,9 +176,24 @@ label ch03_zoe_joins:
     return
 
 label ch03_zoe_skips:
-    scene frog 03 01
-    # at hot spring
+    scene frog 02 03
     y "Yessssss. This is what I was looking for. It's a shame Zoe didn't want to come."
     m "It's fine. Give her some time and I'm sure she'll come around."
     k "That just means more hot spring for us, heehee."
+    call ch03_CALL_eggs_01 from ch03_zoe_skips_call01
+
+    scene frog 03 01
+    z "I just love historic places like this. Makes me glad I moved to Japan for the Justiciars. Thanks for hanging out with me."
+    h "No problem. Those three are natives here, they're used to getting naked and having a soak."
+    z "Hehe, yeah. Definitely takes some getting used to. I'm not sure I'm ready to take a dip, but maybe let's at least visit everyone else."
+    h "Sure, we'll see if their faces have gotten red from all the heat."
+
+    show frog 03 02
+    "Hazel and Zoe make their way to the hot spring, expecting to find their comrades."
+    z "Huh. Maybe they left already?"
+
+    show frog 03 03
+    m "Ribbit!"
+
+
 
