@@ -183,17 +183,67 @@ label ch03_zoe_skips:
     call ch03_CALL_eggs_01 from ch03_zoe_skips_call01
 
     scene frog 03 01
-    z "I just love historic places like this. Makes me glad I moved to Japan for the Justiciars. Thanks for hanging out with me."
+    z "I just love historic places like this. Makes me glad I moved to Japan for the Justiciars. Thanks for sticking with me."
     h "No problem. Those three are natives here, they're used to getting naked and having a soak."
     z "Hehe, yeah. Definitely takes some getting used to. I'm not sure I'm ready to take a dip, but maybe let's at least visit everyone else."
     h "Sure, we'll see if their faces have gotten red from all the heat."
 
     show frog 03 02
-    "Hazel and Zoe make their way to the hot spring, expecting to find their comrades."
+    "Hazel and Zoe make their way to the hot spring, expecting to find their comrades, but surprisingly finding an empty pool."
     z "Huh. Maybe they left already?"
 
     show frog 03 03
     m "Ribbit!"
+    h "Ack!"
 
+    show frog 03 04
+    h "Get off me you... *Gasp*! Maika!"
+    m "Ribbit!"
 
+    show frog 03 05
+    z "Sorry Maika! Hyaa!"
+
+    show frog 03 06
+    z "Come on Hazel, we have to transform."
+    h "Right!"
+
+    show frog 03 07
+    pause
+    show frog 03 08
+    frog "Look who we have here. I didn't think I'd trap two as useful as you."
+    z "Of course. The Dark Sisterhood. Transform our friends back, or you're going to pay!"
+    frog "That's what I thought you'd say, but I'm afraid I have the upper hand."
+
+    # shoots tongue out hitting Hazel
+    show frog 03 09
+    h "Ack! Zoe!"
+    z "Hazel!"
+    menu:
+        "Grab onto Hazel to pull her back":
+            jump ch03_zoe_badend01
+        "Stay back, grabbing Hazel is too dangerous":
+            jump ch03_zoe_goodend
+
+label ch03_zoe_badend02:
+    scene frog 04 01
+    z "I've... I've got you... Hazel..."
+    show frog 04 02
+    z "Ahhh! No!"
+    show frog 04 03
+    frog "Ha ha ha. You should have known it would end this way. I'm afraid I'm too strong for the two of you."
+    show frog 04 04
+    frog "Now, I believe it's time for you to join us as well. We just need a little bit more time for you to gestate."
+    show frog 04 05
+    frog "Yes. Two more beautiful daughters. There's nothing for you to worry about now. You'll join my family, and we'll take over together."
+    show frog 04 06
+    frog "All for the Dark Sisterhood."
+
+    show frog 04 06 with dissolve:
+        matrixcolor SaturationMatrix(0)
+
+    "Frog Bad End 2\nFrogra's tongue is so strong, she can pull in multiple women at once."
+    return
+
+label ch03_zoe_goodend:
+    ""
 
