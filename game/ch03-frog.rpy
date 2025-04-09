@@ -186,29 +186,37 @@ label ch03_zoe_skips:
     z "I just love historic places like this. Makes me glad I moved to Japan for the Justiciars. Thanks for sticking with me."
     h "No problem. Those three are natives here, they're used to getting naked and having a soak."
     z "Hehe, yeah. Definitely takes some getting used to. I'm not sure I'm ready to take a dip, but maybe let's at least visit everyone else."
-    h "Sure, we'll see if their faces have gotten red from all the heat."
+    h "Sure. I bet their faces have gotten all red and swollen from being in the hot spring."
 
-    show frog 03 02
+    show frog 03 02a
     "Hazel and Zoe make their way to the hot spring, expecting to find their comrades, but surprisingly finding an empty pool."
+    show frog 03 02b
     z "Huh. Maybe they left already?"
 
     show frog 03 03
     m "Ribbit!"
     h "Ack!"
 
-    show frog 03 04
-    h "Get off me you... *Gasp*! Maika!"
+    show frog 03 04a
+    h "Get off me you..."
+    show frog 03 04b
+    h "*Gasp*! Maika!"
+    show frog 03 04c
     m "Ribbit!"
 
     show frog 03 05
-    z "Sorry Maika! Hyaa!"
+    z "Hyaa! Sorry Maika!"
 
     show frog 03 06
     z "Come on Hazel, we have to transform."
     h "Right!"
 
-    show frog 03 07
+    show frog 03 07a
+    window hide
     pause
+    show frog 03 07b with dissolve_2
+    pause
+    window show
     show frog 03 08
     frog "Look who we have here. I didn't think I'd trap two as useful as you."
     z "Of course. The Dark Sisterhood. Transform our friends back, or you're going to pay!"
