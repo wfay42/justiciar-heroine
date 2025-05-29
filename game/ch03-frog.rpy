@@ -216,8 +216,8 @@ label ch03_zoe_skips:
     pause
     show frog 03 07b with dissolve_2
     pause
-    window show
     show frog 03 08
+    window show
     frog "Look who we have here. I didn't think I'd trap two as useful as you."
     z "Of course. The Dark Sisterhood. Transform our friends back, or you're going to pay!"
     frog "That's what I thought you'd say, but I'm afraid I have the upper hand."
@@ -228,11 +228,30 @@ label ch03_zoe_skips:
     z "Hazel!"
     menu:
         "Grab onto Hazel to pull her back":
-            jump ch03_zoe_badend01
-        "Stay back, grabbing Hazel is too dangerous":
             jump ch03_zoe_goodend
+        "Stay back, grabbing Hazel is too dangerous":
+            jump ch03_zoe_badend01
 
-label ch03_zoe_badend02:
+label ch03_zoe_badend01:
+    scene frog 05 01
+    "Unable, or unwilling, to grab Hazel, Zoe looks on in terror as she sees her comrade shrink and quickly get gulped down by the monster."
+    frog "Oh my. Not much of a team, are you? Can't even help your friend? Well, she's about to join a new team, aren't you dear?"
+    show frog 05 02
+    "Struggle as she might, Hazel is stuck inside the frog monster."
+    show frog 05 03
+    "She feels her body changing and her clothes dissolving. She lets out a slight yelp, but no sound can be heard outside the fluid sack."
+    show frog 05 04
+    "Hazel looks down, frightened, as she is almost completely transformed. Zoe can see Hazel's lips move, as if mouthing 'Help' one last time. Before Zoe can do anything..."
+    show frog 05 05 with dissolve_2
+    "Hazel completes her transformation into another frog minion. Another daughter of Frogra."
+
+    show frog 04 06 with dissolve:
+        matrixcolor SaturationMatrix(0)
+
+    "Frog Bad End 2\nFrogra's tongue is so strong, she can pull in multiple women at once."
+    return
+
+label ch03_zoe_goodend:
     scene frog 04 01
     z "I've... I've got you... Hazel..."
     show frog 04 02
@@ -251,7 +270,4 @@ label ch03_zoe_badend02:
 
     "Frog Bad End 2\nFrogra's tongue is so strong, she can pull in multiple women at once."
     return
-
-label ch03_zoe_goodend:
-    ""
 
