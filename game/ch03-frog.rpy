@@ -233,8 +233,11 @@ label ch03_zoe_skips:
             jump ch03_zoe_badend01
 
 label ch03_zoe_badend01:
-    scene frog 05 01
-    "Unable, or unwilling, to grab Hazel, Zoe looks on in terror as she sees her comrade shrink and quickly get gulped down by the monster."
+    scene frog 05 01a
+    "Knowing that Hazel is already lost, Zoe looks on in terror as she sees her comrade shrink and quickly get gulped down by the monster."
+    show frog 05 01b with dissolve
+    "Distracted by the predicament, she doesn't notice two more minions approach her from behind."
+    show frog 05 01
     frog "Oh my. Not much of a team, are you? Can't even help your friend? Well, she's about to join a new team, aren't you dear?"
     show frog 05 02
     "Struggle as she might, Hazel is stuck inside the frog monster."
@@ -245,10 +248,38 @@ label ch03_zoe_badend01:
     show frog 05 05 with dissolve_2
     "Hazel completes her transformation into another frog minion. Another daughter of Frogra."
 
-    show frog 04 06 with dissolve:
+    show frog 05 06
+    z "Hazel... I'm too late... But I have to figure out a plan. I have to."
+    show frog 05 07
+    z "Ack. Get... off of me you, *gasp*! Yukino! Kaede!"
+    show frog 05 08
+    z "You two have to snap out of it! Get off of me! I'm trying to save you!"
+    show frog 05 09
+    z "H... Hazel. Please, you have to hear me in there!"
+    show frog 05 10
+    "Hazel peered down at Zoe, prone on the ground, helpless. What was left of Hazel's mind only felt excited."
+    show frog 05 13a
+    "Hazel jumped onto Zoe's face, thrusting her vulva to touch Zoe's lips."
+    show frog 05 13b with dissolve_2
+    "Underneath, Hazel was releasing her eggs directly into Zoe's accepting mouth. Unable to do anything, Zoe could only look on in horror."
+    show frog 05 13c
+    "After swallowing the eggs, Zoe face stiffened. She could feel the changes happening inside of herself."
+    show frog 05 13d with dissolve_2
+    "Zoe's fate was sealed. It would only take moments for her to share the same fate as her friends. Her face and eyes began to mutate."
+    show frog 05 13e with dissolve_2
+    "Her facial features became entirely frog-like in a matter of seconds."
+    show frog 05 13f with dissolve_2
+    "Her sentai costume began to melt away, ready to show her new body."
+    show frog 05 13g with dissolve_2
+    "Zoe had joined her sisters. Another frog minion, ready to serve the Dark Sisterhood."
+    show frog 05 14
+    frog "Perfect. Now, it's time for us to get to work. Our guests aren't going to convert themselves."
+
+
+    show frog 05 14 with dissolve:
         matrixcolor SaturationMatrix(0)
 
-    "Frog Bad End 2\nFrogra's tongue is so strong, she can pull in multiple women at once."
+    "Frog Bad End 2\nZoe abandons Hazel, and pays the price."
     return
 
 label ch03_zoe_goodend:
