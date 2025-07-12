@@ -486,7 +486,7 @@ label ch01_sunday_salon_badend_hq:
     c "And best of all, we're open right now!"
     "The only thing louder than the applause was the thundering of feet as customers rapidly charged the new Justiciar salon."
     "With the Justiciars out of the way, and in fact helping steal energy from the human, it was not long until the Dark Sisterhood took over the world."
-    "Chapter 02 Bad End"
+    "Chapter 1 Bad End"
     return
 
 

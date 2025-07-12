@@ -285,20 +285,37 @@ label ch03_zoe_badend01:
 label ch03_zoe_goodend:
     scene frog 04 01
     z "I've... I've got you... Hazel..."
-    show frog 04 02
     z "Ahhh! No!"
     show frog 04 03
     frog "Ha ha ha. You should have known it would end this way. I'm afraid I'm too strong for the two of you."
-    show frog 04 04
     frog "Now, I believe it's time for you to join us as well. We just need a little bit more time for you to gestate."
     show frog 04 05
-    frog "Yes. Two more beautiful daughters. There's nothing for you to worry about now. You'll join my family, and we'll take over together."
+    z "OK, we have to think fast. Any ideas?"
+    h "Well it's clearly pretty cramped in here. Think we can blow her up from the inside?"
+    z "It's worth a shot!"
     show frog 04 06
-    frog "All for the Dark Sisterhood."
+    "Zoe and Hazel push against each other has hard as they can, trying to extend the belly of the frog monster."
+    show frog 04 06a
+    frog "Hey, what are you two doing down there! Ow!"
+    show frog 04 06
+    h "Just... a little... more..."
+    frog "No! Stop!"
+    show frog 04 07
+    "With one last push, Zoe and Hazel burst out of the stomach of Frogra, destroying her and ending her curse."
+    show frog 04 08
+    z "Wow. That was one hell of a longshot."
+    h "Yeah, but I'm glad it worked! And it's all because you came after me. You really are a good friend Zoe."
+    z "Thanks. I know you would've done the same."
+    show frog 04 09
+    z "And look. The rest of our friends are back to being their normal selves."
+    h "And still naked. Heh."
+    h "Well, what do you think? Want to take a dip in the hot spring?"
+    show frog 04 10
+    z "Not a freaking chance."
 
-    show frog 04 06 with dissolve:
+    show frog 04 10 with dissolve:
         matrixcolor SaturationMatrix(0)
 
-    "Frog Bad End 2\nFrogra's tongue is so strong, she can pull in multiple women at once."
+    "End of Chapter 3."
     return
 
