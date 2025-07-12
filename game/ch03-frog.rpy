@@ -22,12 +22,14 @@ label ch03_start:
     jump ch03_villain_intro
 
 label ch03_villain_intro:
-    scene black
+    scene frog v 01
     v "I hope by now you've heard that the naga troopers have failed as well. I pray that your plan meets with more success, Frogra."
 
+    show frog v 02
     frog "Of course mistress Vivienne. *Ribbit* Unlike my predecessors, I will begin taking over the humans where the Justiciar's prying eyes won't find me."
     frog "I have setup my operation in a rural lake town. As I begin to kidnap and convert the locals, no one will notice. Eventually, I will have my own private army to move into more populated areas."
 
+    show frog v 03
     v "Another slow-burn plan, but indeed, it seems like it will work. Then go, my beautiful damp servant, and make the Dark Sisterhood proud!"
     jump ch03_hotspring_start
 
