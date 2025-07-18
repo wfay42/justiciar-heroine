@@ -597,4 +597,6 @@ label ch02_villain_outro:
     show hospital v 08 with dissolve:
         matrixcolor SaturationMatrix(0)
     "End of Chapter 2."
+
+    call screen confirm("Do you want to save?", yes_action=[ShowMenu('save'), Return()], no_action=Return())
     jump ch03_start

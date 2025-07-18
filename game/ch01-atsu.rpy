@@ -602,4 +602,6 @@ label ch01_goodend:
     show z atsu g 16 with dissolve:
         matrixcolor SaturationMatrix(0)
     "End of Chapter 1."
+
+    call screen confirm("Do you want to save?", yes_action=[ShowMenu('save'), Return()], no_action=Return())
     jump ch02_start
