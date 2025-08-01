@@ -320,5 +320,5 @@ label ch03_zoe_goodend:
     "End of Chapter 3."
 
     call screen confirm("Do you want to save?", yes_action=[ShowMenu('save'), Return()], no_action=Return())
-    return
+    jump ch04_start
 

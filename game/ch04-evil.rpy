@@ -6,6 +6,10 @@ Vivienne gets tired of her minions' failures and takes matters into her own hand
 """
 label ch04_start:
     scene black with dissolve
+    scene end card
+    "I hope you enjoyed the stories of the Justiciars. That's all for now."
+    "Feel free to find more like this on deviantart at\nhttps://www.deviantart.com/wfay42"
+    return
     jump ch04_villain_intro
 
 label ch04_villain_intro:
